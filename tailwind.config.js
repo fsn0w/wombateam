@@ -22,13 +22,24 @@ module.exports = {
             },
         },
         extend: {
-            colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme))
+            colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme)),
+            fontSize: {
+                'base': '1.563rem',
+                'title': '5.3rem'
+            },
+            lineHeight: {
+                'title': '5.5rem',
+            },
+        },
+        fontFamily: {
+            sans: ["Gotham", "sans-serif"],
+            comet: ["Little Comet", "sans-serif"] 
         },
         screens: {
             'sm': '640px',
             'md': '768px',
             'lg': '1024px',
-            'xl': tailpress.theme('settings.layout.wideSize', theme)
+            'xl': '1280px' 
         }
     },
     plugins: [

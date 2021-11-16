@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 1.1,
   "settings": {
     "layout": {
       "wideSize": "1280px"
@@ -9,22 +9,42 @@
         {
           "name": "Primary",
           "slug": "primary",
-          "color": "#0EA5E9"
+          "color": "#DBC7B4"
         },
         {
           "name": "Secondary",
           "slug": "secondary",
-          "color": "#14B8A6"
+          "color": "#20454D"
         },
         {
-          "name": "Dark",
-          "slug": "dark",
-          "color": "#1F2937"
+          "name": "Menu",
+          "slug": "menu",
+          "color": "#997B5F"
         },
         {
-          "name": "Light",
-          "slug": "light",
-          "color": "#F9FAFB"
+          "name": "Text",
+          "slug": "text",
+          "color": "#DBC7B4"
+        },
+        {
+          "name": "Background",
+          "slug": "bgpage",
+          "color": "#37271B"
+        },
+        {
+          "name": "Menu Background",
+          "slug": "bgmenu",
+          "color": "#C9D6E3"
+        },
+        {
+          "name": "Footer Background",
+          "slug": "bgfooter",
+          "color": "#493729"
+        },
+        {
+          "name": "Circles",
+          "slug": "circle",
+          "color": "#BFA084"
         }
       ]
     },

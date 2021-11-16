@@ -6,3 +6,9 @@ alignright
 wp-block-button
 wp-caption
 wp-caption-text
+h-6
+w-6
+opacity-70
+mt-2
+inline
+block

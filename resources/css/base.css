@@ -1,0 +1,41 @@
+:root {
+    --color-primary: #DBC7B4;
+    --color-secondary: #20454D;
+    --color-menu: #997B5F;
+    --color-text: #DBC7B4;
+    --color-bg: #37271B;
+  }
+
+/* Fonts */
+
+@font-face{
+    font-family:"Little Comet";
+    src:url("../css/fonts/Little_Comet.woff2") format("woff2"),url("../css/fonts/Little_Comet.woff") format("woff");
+    font-weight: normal;  
+}
+
+@font-face{
+    font-family: "Gotham";
+    src: url('../css/fonts/GothamRoundedLight_21020.ttf'), url('../css/fonts/GothamRoundedLight.otf');
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: "Gotham";
+    src: url('../css/fonts/GothamRoundedMedium_21022.ttf'), url('../css/fonts/GothamRounded-Medium.otf');
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Gotham";
+    src: url('../css/fonts/GothamRoundedBold_21016.ttf'), url('../css/fonts/GothamRounded-Bold.otf');
+    font-weight: 800;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    @apply px-8 lg:px-0 !important;
+}

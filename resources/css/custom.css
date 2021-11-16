@@ -2,7 +2,7 @@
     h1 {
         @apply text-2xl;
     }
-
+ 
     h2 {
         @apply text-xl;
     }
@@ -35,3 +35,140 @@
         }
     }
 }
+
+.site-content {
+
+    h1, h2, h3 {
+        @apply text-primary font-comet text-4xl lg:text-title lg:leading-title;
+    }
+
+    .title-logo {
+        background-image: url(../assets/img/title-logo.svg);
+
+        @apply bg-no-repeat bg-contain inline-block w-36 h-14 -mt-4 -mb-6 lg:-mb-4 lg:w-96 lg:h-28;
+
+        & span {
+            @apply hidden
+        }
+    }
+
+    /* BTN's */
+
+    .btn1 {
+        background-image: url(../assets/img/btn1.svg);
+        background-size: 100% 100%;
+        @apply inline-block bg-no-repeat bg-center text-center font-comet text-secondary hover:text-bgpage hover:underline;
+
+        &.inactive {
+            @apply opacity-30 pointer-events-none !important;
+        }
+    }
+
+    /* Swiper */
+
+    .swiper {
+        @apply w-full h-52 lg:h-96;
+    }
+
+    .swiper-slide {
+        @apply text-center flex justify-center items-center bg-white cursor-pointer;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Circles */
+
+    .svg-circle {
+        @apply bg-circle rounded-full w-40 h-40 p-5 inline-flex justify-center mb-6;
+    }
+
+}
+
+    /* Icons */
+
+    .icon-tw {
+        background-image: url(../assets/img/icons/icon-twitter.svg); 
+    }
+
+    .icon-tg {
+        background-image: url(../assets/img/icons/icon-telegram.svg);
+    }
+
+    .icon-ds {
+        background-image: url(../assets/img/icons/icon-discord.svg);
+    }
+
+    .icon-tw, .icon-tg, .icon-ds {
+        @apply inline-block bg-no-repeat bg-contain;
+
+        & i {
+            @apply hidden;
+        }
+    }
+
+    /* ANIMATION */
+
+    .hole {
+            background-image: url(../assets/img/main-animation/hole.png);
+            @apply absolute bg-no-repeat bg-contain bg-bottom overflow-hidden cursor-pointer;
+
+        & .sign {
+            @apply mx-auto transition-all delay-500 duration-1000;
+        }
+
+        & .obj-hide {
+            @apply translate-y-full;
+        }
+
+        & .obj-show {
+            @apply translate-y-0;
+        }
+
+        & .sign-animation {
+            animation: wiggle 2.5s infinite;
+            animation-delay: 1.5s;
+            @apply origin-bottom;
+        }
+
+        & .wombat {
+
+            @apply absolute h-full w-full transition-all duration-200;
+
+            & .body0, & .body1 {
+                background-position: center bottom;
+                @apply bg-contain bg-no-repeat;
+            }
+
+            & .body0 {
+                background-image: url(../assets/img/main-animation/wave.gif);
+                @apply h-full;
+            }
+
+            & .body1 {
+                background-image: url(../assets/img/main-animation/butt2.gif);
+                @apply w-[88%] h-[99.5%]
+            }
+
+        }
+
+    }
+    
+        @keyframes wiggle {
+            0% {transform: rotate(0deg);}
+            25% {transform: rotate(-5deg);}
+            50% {transform: rotate(7deg);}
+            75% {transform: rotate(-3deg);}
+            100% {transform: rotate(0deg);}
+          }
+
+    .divider {
+        background-image: url(../assets/img/line1.svg);
+        background-size: 100% 100%;
+        @apply bg-no-repeat bg-center mx-auto w-4/5 h-6 lg:container lg:h-6 ;
+    }
+      
