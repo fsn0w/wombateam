@@ -39,7 +39,9 @@ var n = Math.floor(Math.random() * 6)+1,
 	x = n;
 $('#wombat_sign').addClass( 'obj-show' ).removeClass( 'obj-hide' );
 
-$('#holes').one('click', function(){
+setTimeout(startDelay,4000);
+
+$('#wombat_sign').one('mouseover', function(){
 	$('#wombat_sign').addClass( 'obj-hide' ).removeClass( 'obj-show' );
 	setTimeout(wombatPlay,1500,n);
 });
@@ -65,6 +67,11 @@ function isNear( $element, distance, event ) {
 		y = event.pageY; 
 	return ( x > left && x < right && y > top && y < bottom );
 };
+
+function startDelay() {
+	$('#wombat_sign').addClass( 'obj-hide' ).removeClass( 'obj-show' );
+	setTimeout(wombatPlay,1500,n);
+}
 
 function wombatPlay(n) {
 	var n,
