@@ -259,14 +259,14 @@ While you don’t know which one you’ll get to mint in advance, you can rest a
         <div class="mt-20 flex flex-col gap-10 lg:flex-row">
             <div class="w-full lg:w-1/2">
                 <div class="flex gap-5 mb-5 lg:mb-10 lg:gap-10">
-                    <img src="<?=get_stylesheet_directory_uri()?>/assets/img/team/team1.png" alt="The Visionary Dreamer" class="w-1/2">
+                    <img src="<?=get_stylesheet_directory_uri()?>/assets/img/team/team1.png" alt="The Visionary Dreamer" class="w-1/2 object-contain">
                     <h3>The Visionary Dreamer</h3>
                 </div>
                 <p>With deep roots in the blockchain world and a passion for DeFi, he already has a 5-years plan for these cute Wombats and he has some (crazy) ideas for the market they can create.</p>
             </div>
             <div class="w-full lg:w-1/2">
                 <div class="flex gap-5 mb-5 lg:mb-10 lg:gap-10">
-                    <img src="<?=get_stylesheet_directory_uri()?>/assets/img/team/team2.png" alt="The Adopted Guy" class="w-1/2">
+                    <img src="<?=get_stylesheet_directory_uri()?>/assets/img/team/team2.png" alt="The Adopted Guy" class="w-1/2 object-contain">
                     <h3>The Adopted Guy</h3>
                 </div>
                 <p>The true artist in the group.<br> He’s the one breathing life into these adorable creatures.</p>
@@ -275,14 +275,14 @@ While you don’t know which one you’ll get to mint in advance, you can rest a
         <div class="mt-16 flex flex-col gap-10 lg:flex-row">
             <div class="w-full lg:w-1/2">
                 <div class="flex gap-5 mb-5 lg:mb-10 lg:gap-10">
-                    <img src="<?=get_stylesheet_directory_uri()?>/assets/img/team/team3.png" alt="The Party Pooper" class="w-1/2">
+                    <img src="<?=get_stylesheet_directory_uri()?>/assets/img/team/team3.png" alt="The Party Pooper" class="w-1/2 object-contain">
                     <h3>The<br> Party Pooper</h3>
                 </div>
                 <p>You all know someone like that.<br>You have him in every group.<br>He’s the one that says “na, it won’t work”, “it’s too complicated” etc. - but don’t worry, our visionary guy is very good at motivating him.</p>
             </div>
             <div class="w-full lg:w-1/2">
                 <div class="flex gap-5 mb-5 lg:mb-10 lg:gap-10">
-                    <img src="<?=get_stylesheet_directory_uri()?>/assets/img/team/team4.png" alt="And A Few Others" class="w-1/2">
+                    <img src="<?=get_stylesheet_directory_uri()?>/assets/img/team/team4.png" alt="And A Few Others" class="w-1/2 object-contain"> 
                     <h3>And<br> A Few Others</h3>
                 </div>
                 <p>The geeks, the wordsmiths, the project managers, the coders - you know, the people that actually make this work.</p>
