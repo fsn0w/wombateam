@@ -48,7 +48,7 @@
 							'container_class' => 'hidden block bg-white shadow-inner rounded-2xl mt-4 p-4 font-comet lg:shadow-none lg:mt-0 lg:p-0 lg:bg-transparent xl:bg-transparent lg:block',
 							'menu_class'      => 'items-center lg:mt-6 lg:flex',
 							'theme_location'  => 'primary',
-							'li_class'        => 'text-menu hover:text-secondary px-2 py-1 font-comet text-2xl lg:text-base lg:mx-2',
+							'li_class'        => 'main-menu',
 							'fallback_cb'     => false,
 						)
 					);

@@ -42,17 +42,13 @@ get_header();
             <img src="<?=get_stylesheet_directory_uri()?>/assets/img/MeetWombats1.png" class="block absolute -right-20 -top-20 scale-x-[-1] w-44 lg:hidden"/>
             <h1>Meet the <br/><span class="title-logo"><span>Wombateam</span></span></h1>
                 <p class="mt-10">
-                    The WombaTeam is a group of XX,XXX,XXX unique collectible Wombat NFTs that are FULL OF SHIT. 
+                The WombaTeam NFTs are NOT your ordinary collectibles. This group of 10K unique wombats gives a shit! Literally.
                 </p>
                 <p class="mt-6 lg:mt-10">
-                    Wait a minute!<br>
-                    Did we just write shit?<br>
-                    Holly crap, we did. <br>
-                    Why? because they<br>
-                    give a shit! Literally.
+                Each Wombat can poop a number of turds according to its rarity, and we have big plans on turning these pooping machines into an impactful, community-driven financial system. 
                 </p>
                 <p class="mt-6 lg:mt-10">
-                    Read our roadmap below to make some sense out of this mambo jambo.
+                Read <a href="#roadmap">our roadmap</a> below to make some sense out of this.
                 </p>
                 <p class="mt-6 text-center lg:text-left lg:mt-20">
                     for news and launch alerts:
@@ -95,9 +91,9 @@ Minting a Wombat costs<br>
 
 Not sure if you noticed it by now, but we love Wombats. <br><strong>That’s why we will be donating X% of the sales for Wombat related charities and research</strong><br> (This will be decided by the DAO, see stage 3). 
             </p>
-            <div class="-mx-8 text-center lg:mx-0 lg:text-left">
-                <p class="mt-16 text-center lg:text-left lg:text-3xl">for news and launch alerts:</p>
-                <a href="" class="btn1 mt-2 py-4 px-4 text-xl inactive lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">discord channel coming soon</a>
+            <div class="mt-16 text-center lg:mx-0 lg:text-left">
+                <a href="" class="btn1 mt-2 py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">start minting a WombaTeam</a>
+                <p class="mt-8 text-center lg:text-left lg:text-3xl">Launch date will be announced on our <a href="#telegram">Telegram</a> & <a href="#discord">Discord</a> channels</p>
             </div>
         </div>
 </div>
@@ -146,8 +142,8 @@ A culmination of your farming efforts - the harvest will be delivered to you in 
 We shit you not!<br><br>
 
 As a DAO member, you‘ll get a chance to participate in additional projects, decide on important things like which Wombat related charity will get our support, the future road map and other (stinky) business decisions.    
-
             </p>
+            <p class="mt-8"><a href="#learn_more">learn more</a></p>
         </div>
 </div>
     
@@ -177,7 +173,7 @@ As a DAO member, you‘ll get a chance to participate in additional projects, de
         <div class="w-full text-center">
             <strong>Get your shit together!!!</strong><br>join the WombaTeam revolution<br>
 
-            <a href="" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl ">mint your wombat<br>(aka-WPOO generator)</a>
+            <a href="" class="btn1 mt-10 py-2 px-10 text-xl inactive lg:py-6 lg:px-24 lg:text-5xl ">Join our Discord Channel</a>
 
         </div>
 </div>
@@ -204,13 +200,13 @@ As a DAO member, you‘ll get a chance to participate in additional projects, de
     
 <!-- /Slider -->
 
-<!-- Sneak peak -->
+<!-- Sneak peek -->
 
 <div class="mx-auto mt-10 container flex flex-col lg:mt-40 lg:flex-row">
         <div class="lg:w-4/12">
         </div>
         <div class="w-full lg:w-8/12">
-        <h2 class="mb-10 text-center lg:text-left">Get a sneak peak</h2>
+        <h2 class="mb-10 text-center lg:text-left">Get a sneak peek</h2>
 
         <!-- Slider Mobile -->
 
@@ -238,7 +234,7 @@ Our talented artist created XXX attributs and our algorithm created XX,XXX,XXX v
 
 While you don’t know which one you’ll get to mint in advance, you can rest assured it will still be very unique and it will still poop cubes daily<br>(all Wombats do).<br>
 </p>
-<div class="w-full text-center lg:mt-24"><a href="" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl ">mint your wombat<br>(aka-WPOO generator)</a></div>
+<div class="w-full text-center lg:mt-24"><a href="" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl ">Mint your WombaTeam<br> Here</a></div>
         </div>
 </div>
     
@@ -328,6 +324,8 @@ While you don’t know which one you’ll get to mint in advance, you can rest a
                 <p>Together we can use the power of (cubic) poo to influence the life of Wombats and WombaTeam holders.</p>
             </div>
         </div>
+
+        <div class="w-full text-center lg:mt-24"><a href="" class="btn1 mt-10 py-2 px-10 text-xl inactive lg:py-6 lg:px-24 lg:text-5xl">OK got it,<br/> let’s mint a WombaTeam</a></div>
 
 </div>
     

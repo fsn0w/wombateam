@@ -13,7 +13,7 @@
 
     p, ul, ol {
         a {
-            @apply text-blue-500 underline;
+            @apply underline;
 
             &:hover {
                 @apply no-underline;
@@ -57,7 +57,7 @@
     .btn1 {
         background-image: url(../assets/img/btn1.svg);
         background-size: 100% 100%;
-        @apply inline-block bg-no-repeat bg-center text-center font-comet text-secondary hover:text-bgpage hover:underline;
+        @apply inline-block bg-no-repeat bg-center text-center font-comet text-secondary border-0 hover:text-bgpage hover:text-bgpage;
 
         &.inactive {
             @apply opacity-30 pointer-events-none !important;

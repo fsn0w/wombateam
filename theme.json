@@ -27,6 +27,11 @@
           "color": "#DBC7B4"
         },
         {
+          "name": "Links",
+          "slug": "hlink",
+          "color": "#C1E6EA"
+        },
+        {
           "name": "Background",
           "slug": "bgpage",
           "color": "#37271B"
