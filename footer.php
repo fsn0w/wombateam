@@ -14,9 +14,9 @@
 		<div class="px-8 lg:px-0">
 			<img src="<?=get_stylesheet_directory_uri()?>/assets/img/title-logo.svg" class="mx-auto" />
 			<div class="flex justify-center gap-10 mt-8 mb-4 lg:mt-12 lg:mb-6"> 
-				<a href="#twitter" class="icon-tw w-10 h-10 brightness-125 hover:brightness-100 lg:w-20 lg:h-20"></a>
-				<a href="https://t.me/WombaTeam" target="_blank" class="icon-tg w-10 h-10 brightness-125 hover:brightness-100 lg:w-20 lg:h-20"></a>
-				<a href="#discord" class="icon-ds w-10 h-10 brightness-125 hover:brightness-100 lg:w-20 lg:h-20"></a>
+				<a href="#twitter" class="icon-tw w-10 h-10 brightness-125 border-b-0 hover:brightness-100 lg:w-20 lg:h-20"></a>
+				<a href="https://t.me/WombaTeam" target="_blank" class="icon-tg w-10 h-10 brightness-125 border-b-0 hover:brightness-100 lg:w-20 lg:h-20"></a>
+				<a href="#discord" class="icon-ds w-10 h-10 brightness-125 border-b-0 hover:brightness-100 lg:w-20 lg:h-20"></a>
 			</div>
 			@<?php echo date_i18n( 'Y' );?>-All rights reserved to Wombateam
 		</div>
