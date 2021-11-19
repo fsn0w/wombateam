@@ -87,7 +87,7 @@ get_header();
 in the series).<br><br>
 
 Minting a Wombat costs<br>
-0.1 ETH (+gas fee) and each one will have a different combination of traits (different backgrounds, facial expressions, cloths etc.) - some more rare than others.<br><br>
+0.05 ETH (+gas fee) and each one will have a different combination of traits (different backgrounds, facial expressions, cloths etc.) - some more rare than others.<br><br>
 
 Not sure if you noticed it by now, but we love Wombats. <br><strong>That’s why we will be donating X% of the sales for Wombat related charities and research</strong><br> (This will be decided by the DAO, see stage 3). 
             </p>
@@ -111,13 +111,13 @@ Not sure if you noticed it by now, but we love Wombats. <br><strong>That’s why
         </div>
         <div class="w-full px-6 lg:px-0 lg:w-8/12">
             <p>
-                <strong>Once we hit X% of sales, your Wombat will start pooping WPOO tokens and trust us, it's going to be an absolute shit show.</strong><br><br>
+                Once we hit the P-Day (the exact timing of which is kept secret and will be shared with our allies over the encrypted channels, in order to keep the surprise element), your Wombat will start pooping <strong>WPOO tokens</strong>, and trust us, it’s going to be an absolute shit show.<br><br>
 
-These lovely marsupial creatures poop up to 80 cubes per day (yes - they drop that many square-shaped turds each day, magical, isn't it?)<br><br>
+                These lovely marsupial creatures poop up to 80 cubes per day (yes - they drop that many square-shaped turds each day, magical, isn’t it?)!!!<br><br>
 
-The number of WoPoo tokens your wombat will produce daily will depend on its rarity. The bigger the rarity factor is - the more tokens you will get.<br><br>
+                The number of WooPoo tokens your wombat will produce daily will depend on its rarity. The bigger the rarity factor is - the more tokens you will get.<br><br>
 
-If we can guess what's going through your mind while reading it, it's probably something like "holy shit"!
+                If we can guess what’s going through your mind while reading it, it’s probably something like “holy shit”!
 
             </p>
         </div>
@@ -230,9 +230,11 @@ As a DAO member, you‘ll get a chance to participate in additional projects, de
 
             <p>We have a very diversified Wombat Team and no one is like the other. <br><br>
 
-Our talented artist created XXX attributs and our algorithm created XX,XXX,XXX variations of them - some are more rare than others (with number 2 being the rarest… #JustSaying). <br><br>
+            Our talented artist created 163 attributes and our algorithm created 10,000 variations of them - some are more rare than others (with number 2 being the rarest… #JustSaying). <br><br>
 
-While you don’t know which one you’ll get to mint in advance, you can rest assured it will still be very unique and it will still poop cubes daily<br>(all Wombats do).<br>
+            While you don’t know which one you’ll get to mint in advance, you can rest assured it will still be very unique and it will still poop cubes daily <br>(all Wombats do).<br><br>
+
+            Please note that we will mint 300 Wombats (out of the 10,000) in advance, in order to reserve some for community giveaways, partners and the team.<br>
 </p>
 <div class="w-full text-center lg:mt-24"><a href="" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl ">Mint your WombaTeam<br> Here</a></div>
         </div>
@@ -299,15 +301,15 @@ While you don’t know which one you’ll get to mint in advance, you can rest a
         <div class="flex flex-col gap-10 mb-10 lg:mb-16 lg:flex-row">
             <div class="w-full text-center px-2 lg:w-1/3">
                 <div class="svg-circle"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/tl-dr/nft.svg" alt=""></div>
-                <p>A series of 10K NFTs that are minted in a fair launch for<br> 0.0X ETH</p>
+                <p>A series of 10K NFTs that are minted in a fair launch for <br>0.05 ETH</p>
             </div>
             <div class="w-full text-center px-2 lg:w-1/3">
                 <div class="svg-circle"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/tl-dr/drawn.svg" alt=""></div>
-                <p>Each one was hand drawn by our artist and algorithmically generated at random from over X unique attributes</p>
+                <p>Each one was hand drawn by our artist and algorithmically generated at random from over 163 unique attributes</p>
             </div>
             <div class="w-full text-center px-2 lg:w-1/3">
                 <div class="svg-circle"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/tl-dr/cube.svg" alt=""></div>
-                <p>Each wombat unlocks the daily WPOO tokens distribution according to it's rarity<br>(once we hit X% minting)</p>
+                <p>And unlocks the daily WPOO tokens distribution according to its rarity<br>(once we hit the P-Day)</p>
             </div>
         </div>
         <div class="flex flex-col gap-10 mb-10 lg:mb-16 lg:flex-row">
