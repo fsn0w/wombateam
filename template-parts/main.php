@@ -93,7 +93,7 @@ Not sure if you noticed it by now, but we love Wombats. <br><strong>That’s why
             </p>
             <div class="mt-16 text-center lg:mx-0 lg:text-left">
                 <a href="" class="btn1 mt-2 py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">start minting a WombaTeam</a>
-                <p class="mt-8 text-center lg:text-left lg:text-3xl">Launch date will be announced on our <a href="#telegram">Telegram</a> & <a href="#discord">Discord</a> channels</p>
+                <p class="mt-8 text-center lg:text-left lg:text-3xl">Launch date will be announced on our <a href="https://t.me/WombaTeam" target="_blank">Telegram</a> & <a href="#discord">Discord</a> channels</p>
             </div>
         </div>
 </div>

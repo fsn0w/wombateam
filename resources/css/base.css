@@ -45,5 +45,5 @@ a {
 }
 
 .main-menu a {
-    @apply text-menu hover:text-secondary px-2 py-1 font-comet text-2xl lg:text-base lg:mx-2 no-underline !important;
+    @apply text-menu no-underline hover:text-secondary px-2 py-1 font-comet text-2xl lg:text-base lg:mx-2 !important;
 }
