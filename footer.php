@@ -18,7 +18,7 @@
 				<a href="https://t.me/WombaTeam" target="_blank" class="icon-tg w-10 h-10 brightness-125 border-b-0 hover:brightness-100 lg:w-20 lg:h-20 "></a>
 				<a href="#discord" class="icon-ds w-10 h-10 brightness-125 border-b-0 hover:brightness-100 lg:w-20 lg:h-20"></a>
 			</div>
-			@<?php echo date_i18n( 'Y' );?>-All rights reserved to Wombateam
+			@<?php echo date_i18n( 'Y' );?> - All rights reserved to WombaTeam
 		</div>
 	</div>
 </footer>
