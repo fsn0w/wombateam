@@ -12,16 +12,16 @@ get_header();
 <!-- FAQ -->
 
     <div class="mx-auto pt-36 pb-28 container faq-grid">
-        <h1 class="mt-12">FAQs</h1>
+        <h1 class="lg:mt-20">FAQs</h1>
         <p><strong>On Wombats, Farming, DAOs And Everything In Between...</strong></p>
-        <p class="mt-10">As you can already understand, our Wombat NFTs are quite unique and can help us create a new and impactful community-driven financial system.<br>
+        <p class="mt-6 lg:mt-10">As you can already understand, our Wombat NFTs are quite unique and can help us create a new and impactful community-driven financial system.<br>
             But we get it, it raises quite a lot of questions, so let’s tackle them one by one:
         </p>
 
 <!-- Stage 1 -->
-        <div class="mt-20">
-            <h4>Stage 1 (Join the Wombateam) questions</h4>
-            <div class="accordion mt-10">
+        <div class="mt-12 lg:mt-20">
+            <h4>Stage 1 (Join the Wombateam) Questions</h4>
+            <div class="accordion mt-5 lg:mt-10">
                 <div class="accordion-item border-t">
                 <button aria-expanded="false"><span class="accordion-title">What is the WombaTeam?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
@@ -66,9 +66,9 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
 
 <!-- Stage 2 -->
 
-        <div class="mt-20">
-            <h4>Stage 2 (Wpoo tokens generation) questions</h4>
-            <div class="accordion mt-10">
+        <div class="mt-12 lg:mt-20">
+            <h4>Stage 2 (Wpoo tokens generation) Questions</h4>
+            <div class="accordion mt-5 lg:mt-10">
                 <div class="accordion-item border-t">
                 <button aria-expanded="false"><span class="accordion-title">Ok I’m confused, what does poop have to do with wombats and tokens?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
@@ -110,9 +110,9 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
 
 <!-- Stage 3 -->
 
-<div class="mt-20">
-            <h4>Stage 3 (Farm Fertilising) questions</h4>
-            <div class="accordion mt-10">
+        <div class="mt-12 lg:mt-20">
+            <h4>Stage 3 (Farm Fertilising) Questions</h4>
+            <div class="accordion mt-5 lg:mt-10">
                 <div class="accordion-item border-t">
                 <button aria-expanded="false"><span class="accordion-title">What is this farming activity?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
@@ -170,11 +170,11 @@ For example - half of the royalties from the secondary sales of the WombaTeam NF
 
 <!-- C2A Discord -->
 
-    <div class="w-full text-center bg-[#5F4F44] py-20">
+    <div class="w-full text-center bg-[#5F4F44] py-10 px-10 lg:py-20">
         <h2>Got More Questions?</h2>
         <p class="mt-6">Ping us on our Discord Channel<br>
         and ask away</p>
-        <a href="#discord" class="inline-flex justify-center border-0 mt-12 hover:opacity-80"><svg width="156" height="157" viewBox="0 0 156 157" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <a href="#discord" class="inline-flex justify-center border-0 mt-8 hover:opacity-80 lg:mt-12"><svg class="w-20 lg:w-40" viewBox="0 0 156 157" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M57.8853 108.827C57.8853 108.827 60.5442 105.54 62.7108 102.801C53.5521 100.013 50.1053 94.1862 50.1053 94.1862C50.1053 94.1862 50.8439 94.6842 52.1241 95.4312C52.1734 95.481 52.2719 95.5806 52.4196 95.6304C52.6165 95.7797 52.8627 95.8295 53.0597 95.9789C54.8816 96.9749 56.6542 97.8214 58.3284 98.4688C61.2828 99.6142 64.8281 100.809 68.9151 101.606C74.3315 102.602 80.6343 103 87.5772 101.656C90.9748 101.058 94.4216 100.062 98.0161 98.5186C100.527 97.5725 103.334 96.1781 106.288 94.236C106.288 94.236 102.694 100.212 93.2398 102.901C95.4064 105.689 98.0161 108.777 98.0161 108.777C113.921 108.279 120.076 97.7219 120.076 97.7219C120.076 74.2672 109.686 55.2445 109.686 55.2445C99.2964 47.4263 89.4483 47.6255 89.4483 47.6255L88.4635 48.7708C100.724 52.5554 106.387 58.0332 106.387 58.0332C98.9025 53.9 91.5656 51.8583 84.7212 51.0615C79.5018 50.4639 74.5285 50.6133 70.1461 51.2109C69.7029 51.2109 69.3583 51.2607 68.9151 51.3603C66.4038 51.5595 60.2488 52.5056 52.5673 55.9417C49.9083 57.1866 48.3326 58.0332 48.3326 58.0332C48.3326 58.0332 54.2907 52.3064 67.2409 48.5218L66.5516 47.6255C66.5516 47.6255 56.7035 47.4263 46.3138 55.2943C46.3138 55.2943 35.9241 74.317 35.9241 97.7716C35.9241 97.7219 41.9806 108.329 57.8853 108.827ZM90.827 74.815C94.914 74.815 98.1638 78.4502 98.1638 82.8822C98.1638 87.3142 94.914 90.9494 90.827 90.9494C86.7893 90.9494 83.4902 87.3142 83.4902 82.8822C83.441 78.4502 86.6908 74.815 90.827 74.815ZM64.5327 74.815C68.6196 74.815 71.968 78.4502 71.8695 82.8822C71.8695 87.3142 68.6196 90.9494 64.5327 90.9494C60.495 90.9494 57.1959 87.3142 57.1959 82.8822C57.1959 78.4502 60.3965 74.815 64.5327 74.815Z" fill="#DBC7B4"/>
 <circle cx="78" cy="78.2258" r="75.3723" stroke="#DBC7B4" stroke-width="5"/>
 </svg></a>
