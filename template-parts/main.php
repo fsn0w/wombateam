@@ -53,7 +53,7 @@ get_header();
                 <p class="mt-6 text-center lg:text-left lg:mt-20">
                     For news and launch alerts:
                 </p>
-            <div class="text-center lg:text-left"><a href="" class="btn1 mt-2 py-4 px-4 text-xl inactive lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">discord channel coming soon</a></div>
+            <div class="text-center lg:text-left"><a href="https://discord.gg/vj7RmZeBnp" target="_blank" class="btn1 mt-2 py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">join our discrod channel</a></div>
         </div>
     </div>
 
@@ -90,7 +90,7 @@ You've probably noticed it by now, but we love wombats. <strong>That’s why we 
             </p>
             <div class="mt-16 text-center lg:mx-0 lg:text-left">
                 <a href="" class="btn1 mt-2 py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">Mint a Wombat</a>
-                <p class="mt-8 text-center lg:text-left lg:text-3xl">Launch date will be announced on our <a href="https://t.me/WombaTeam" target="_blank">Telegram</a> & <a href="#discord">Discord</a> channels</p>
+                <p class="mt-8 text-center lg:text-left lg:text-3xl">Launch date will be announced on our <a href="https://t.me/WombaTeam" target="_blank">Telegram</a> & <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord</a> channels</p>
             </div>
         </div>
 </div>
@@ -171,7 +171,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
         <div class="w-full text-center">
             <strong>Get your shit together!</strong><br>Join the WombaTeam revolution<br>
 
-            <a href="" class="btn1 mt-10 py-2 px-10 text-xl inactive lg:py-6 lg:px-24 lg:text-5xl ">Join Our Discord Channel</a>
+            <a href="https://discord.gg/vj7RmZeBnp" target="_blank" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl ">Join Our Discord Channel</a>
 
         </div>
 </div>
