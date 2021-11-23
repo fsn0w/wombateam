@@ -160,3 +160,10 @@ add_filter( 'wp_check_filetype_and_ext', function($data, $file, $filename, $mime
 
   remove_filter( 'the_content', 'wptexturize' );
 
+  /* API */
+
+  add_action( 'init', 'rewrite_rule_my' );
+  function rewrite_rule_my(){
+	  add_rewrite_rule( '^(api)/([^/]*)/?', 'index.php?pagename=$matches[1]&token=$matches[2]', 'top' );
+	  add_rewrite_tag( '%token%', '([^&]+)' );
+  }
