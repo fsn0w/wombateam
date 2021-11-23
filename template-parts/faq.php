@@ -72,7 +72,7 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                 <div class="accordion-item border-t">
                 <button aria-expanded="false"><span class="accordion-title">Ok I’m confused, what does poop have to do with wombats and tokens?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>We’re glad you asked. These lovely marsupial creatures poop up to 80 cubes per day (yes - they drop that many cube-shaped turds each day. Magical, isn’t it?). We feel it would be a waste not to use this unique piece of information for something good, so we wrapped their poo into tokens (WPOO). Once we hit 3,000 minted Wombats or reach the “pooping day”, your Wombat will start pooping WPOO tokens and trust us, it’s going to be an absolute shit show.</p>
+                        <p>We’re glad you asked. These lovely marsupial creatures poop up to 80 cubes per day (yes - they drop that many cube-shaped turds each day. Magical, isn’t it?). We feel it would be a waste not to use this unique piece of information for something good, so we wrapped their poo into tokens (WPOO). Once we hit the P-Day (the exact timing of which is kept secret and will be shared with our allies over encrypted channels), your Wombat will start pooping WPOO tokens and trust us, it’s going to be an absolute shitshow.</p>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -84,7 +84,7 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                 <div class="accordion-item">
                 <button aria-expanded="false"><span class="accordion-title">When will this start?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>Once we hit 3,000 minted Wombats or reach the “pooping day”</p>
+                        <p>Once we hit the P-Day (the exact timing of which is kept secret and will be shared with our allies over encrypted channels)</p>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -135,7 +135,7 @@ In our case - staking your WPOO tokens (which basically means locking them in a 
                 <div class="accordion-item">
                 <button aria-expanded="false"><span class="accordion-title">How will the WDAO make these decisions?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>We’ll be using discord for discussing the WIPs (Wombat DAO Improvement Proposals) and snapshot.org for voting on the proposals. Every member of the DAO would be able to formulate a proposal and put it out for the community to discuss and afterwards (potentially after a few rounds of refinements) to submit it for voting. In order to prevent spamming of the voting mechanism - a certain voting power threshold will need to be held by the user in order to submit it for voting. In order to pass, a WIP will need to both achieve a quorum and a majority voting in favour of it. You can read our Whitepaper for more in-depth details.</p>
+                        <p>We’ll be using discord for discussing the WIPs (Wombat DAO Improvement Proposals) and snapshot.org for voting on the proposals. Every member of the DAO would be able to formulate a proposal and put it out for the community to discuss and afterwards (potentially after a few rounds of refinements) to submit it for voting. In order to prevent spamming of the voting mechanism - a certain voting power threshold will need to be held by the user in order to submit it for voting. In order to pass, a WIP will need to both achieve a quorum and a majority voting in favour of it.</p>
                     </div>
                 </div>
                 <div class="accordion-item">
