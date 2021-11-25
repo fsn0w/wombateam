@@ -14,12 +14,12 @@ get_header();
 <div class="w-full mb-24 pt-20 bg-bgmenu overflow-hidden lg:pt-0">
     <div class="relative z-10 bg-cover" style="background-image:url('<?=get_stylesheet_directory_uri()?>/assets/img/main-animation/header_bg_front.png')">
         <div id="holes" class="absolute z-10 top-1/3 h-2/5 w-full">
-            <div id="hole7" class="hole w-[13%] min-h-[50%] bottom-[55%] left-[68%]"></div>
-            <div id="hole6" class="hole w-[13%] min-h-[50%] bottom-[60%] left-[33%]"></div>
-            <div id="hole5" class="hole w-[11%] min-h-[50%] bottom-[70%] left-[55%]"></div>
-            <div id="hole4" class="hole w-[10%] min-h-[50%] bottom-[60%] left-[14%]"></div>
-            <div id="hole3" class="hole w-[17%] min-h-[63%] bottom-[28%] left-[69%]"></div>
-            <div id="hole2" class="hole w-[17%] min-h-[63%] bottom-[23%] left-[39%]">
+            <div id="hole7" class="hole w-[13%] min-h-[50%] bottom-[55%] left-[68%] cursor-pointer"></div>
+            <div id="hole6" class="hole w-[13%] min-h-[50%] bottom-[60%] left-[33%] cursor-pointer"></div>
+            <div id="hole5" class="hole w-[11%] min-h-[50%] bottom-[70%] left-[55%] cursor-pointer"></div>
+            <div id="hole4" class="hole w-[10%] min-h-[50%] bottom-[60%] left-[14%] cursor-pointer"></div>
+            <div id="hole3" class="hole w-[17%] min-h-[63%] bottom-[28%] left-[69%] cursor-pointer"></div>
+            <div id="hole2" class="hole w-[17%] min-h-[63%] bottom-[23%] left-[39%] cursor-pointer">
                 <div class="sign-animation">
                     <img class="sign obj-hide" id="wombat_sign" src="<?=get_stylesheet_directory_uri()?>/assets/img/main-animation/sign_optional.png" alt="Sign">
                 </div>
@@ -30,7 +30,6 @@ get_header();
     </div>
     <img class="absolute top-20 left-0 animate-pulse lg:top-0" src="<?=get_stylesheet_directory_uri()?>/assets/img/main-animation/clouds.png" alt="clouds">
 </div>
-
 
 <!-- /Animation -->
 

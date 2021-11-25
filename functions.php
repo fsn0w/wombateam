@@ -55,8 +55,9 @@ function true_jquery_register() {
 function tailpress_enqueue_scripts() {
 	$theme = wp_get_theme();
 
-	wp_enqueue_style( 'tailpress', tailpress_asset( 'css/app.css' ), array(),'0.107' );
+	wp_enqueue_style( 'tailpress', tailpress_asset( 'css/app.css' ), array(),'0.108' );
 	wp_enqueue_script( 'tailpress', tailpress_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
+	if (is_page_template('template-parts/main.php')) { wp_enqueue_script( 'main', get_template_directory_uri() . '/js/animation.js', array('jquery') ); }
 }
 
 add_action( 'wp_enqueue_scripts', 'tailpress_enqueue_scripts' );

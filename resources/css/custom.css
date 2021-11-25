@@ -61,11 +61,17 @@
     .btn1 {
         background-image: url(../assets/img/btn1.svg);
         background-size: 100% 100%;
-        @apply inline-block bg-no-repeat bg-center text-center font-comet text-secondary border-0 hover:text-bgpage hover:text-bgpage;
+        @apply inline-block bg-no-repeat bg-center text-center font-comet text-secondary border-0 hover:text-bgpage;
 
         &.inactive {
             @apply opacity-30 pointer-events-none !important;
         }
+    }
+
+    .btn2 {
+        background-image: url(../assets/img/btn2.svg);
+        background-size: 100% 100%;
+        @apply inline-block bg-no-repeat bg-center text-center font-comet text-bgpage border-0 hover:text-secondary;
     }
 
     /* Swiper */
@@ -95,6 +101,10 @@
 
     /* Icons */
 
+    .icon-eth {
+        background-image: url(../assets/img/icons/icon-eth.svg);
+    }
+
     .icon-tw {
         background-image: url(../assets/img/icons/icon-twitter.svg); 
     }
@@ -107,7 +117,7 @@
         background-image: url(../assets/img/icons/icon-discord.svg);
     }
 
-    .icon-tw, .icon-tg, .icon-ds {
+    .icon-eth, .icon-tw, .icon-tg, .icon-ds {
         @apply inline-block bg-no-repeat bg-contain;
 
         & i {
@@ -119,14 +129,14 @@
 
     .hole {
             background-image: url(../assets/img/main-animation/hole.png);
-            @apply absolute bg-no-repeat bg-contain bg-bottom overflow-hidden cursor-pointer;
+            @apply absolute bg-no-repeat bg-contain bg-bottom overflow-hidden;
 
         & .sign {
-            @apply mx-auto transition-all delay-500 duration-1000;
+            @apply mx-auto transition-all delay-500 duration-1000 mb-1;
         }
 
         & .obj-hide {
-            @apply translate-y-full;
+            @apply translate-y-full mb-0;
         }
 
         & .obj-show {
@@ -141,7 +151,7 @@
 
         & .wombat {
 
-            @apply absolute h-full w-full transition-all duration-200;
+            @apply absolute h-[97.5%] w-full transition-all duration-200;
 
             & .body0, & .body1 {
                 background-position: center bottom;
@@ -150,12 +160,12 @@
 
             & .body0 {
                 background-image: url(../assets/img/main-animation/wave.gif);
-                @apply h-full;
+                @apply h-full ml-2;
             }
 
             & .body1 {
                 background-image: url(../assets/img/main-animation/butt2.gif);
-                @apply w-[88%] h-[99.5%]
+                @apply w-[88%] h-full
             }
 
         }
@@ -231,3 +241,10 @@
           }
         }
       }
+
+      /* MINT HEADER */
+
+      .hole-number {
+              text-shadow: -2px -2px 0 #37271B, 2px -2px 0 #37271B, -2px 2px 0 #37271B, 2px 2px 0 #37271B;
+              @apply absolute text-6xl font-bold;
+          }

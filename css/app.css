@@ -835,6 +835,58 @@ a:hover {
   top: -5rem;
 }
 
+.left-\[62\%\] {
+  left: 62%;
+}
+
+.bottom-\[40\%\] {
+  bottom: 40%;
+}
+
+.left-\[72\%\] {
+  left: 72%;
+}
+
+.left-\[40\%\] {
+  left: 40%;
+}
+
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.bottom-\[54\%\] {
+  bottom: 54%;
+}
+
+.left-\[8\%\] {
+  left: 8%;
+}
+
+.left-\[20\%\] {
+  left: 20%;
+}
+
+.left-\[75\%\] {
+  left: 75%;
+}
+
+.bottom-\[10\%\] {
+  bottom: 10%;
+}
+
+.left-\[89\%\] {
+  left: 89%;
+}
+
+.left-\[25\%\] {
+  left: 25%;
+}
+
+.bottom-\[12\%\] {
+  bottom: 12%;
+}
+
 .top-4 {
   top: 1rem;
 }
@@ -869,6 +921,10 @@ a:hover {
 
 .z-0 {
   z-index: 0;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .m-8 {
@@ -908,6 +964,26 @@ a:hover {
 .-mx-8 {
   margin-left: -2rem;
   margin-right: -2rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .mt-2 {
@@ -998,6 +1074,42 @@ a:hover {
   margin-bottom: -1.5rem;
 }
 
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.-mb-2 {
+  margin-bottom: -0.5rem;
+}
+
+.-mb-10 {
+  margin-bottom: -2.5rem;
+}
+
+.-mb-44 {
+  margin-bottom: -11rem;
+}
+
+.-mb-60 {
+  margin-bottom: -15rem;
+}
+
+.-mb-72 {
+  margin-bottom: -18rem;
+}
+
+.-mb-64 {
+  margin-bottom: -16rem;
+}
+
+.mb-\[-17rem\] {
+  margin-bottom: -17rem;
+}
+
 .block {
   display: block;
 }
@@ -1054,16 +1166,24 @@ a:hover {
   height: 10rem;
 }
 
+.h-\[97\.5\%\] {
+  height: 97.5%;
+}
+
 .h-full {
   height: 100%;
 }
 
-.h-\[99\.5\%\] {
-  height: 99.5%;
-}
-
 .h-3 {
   height: 0.75rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-12 {
+  height: 3rem;
 }
 
 .max-h-\[50em\] {
@@ -1150,8 +1270,29 @@ a:hover {
   width: 0.25rem;
 }
 
+.w-14 {
+  width: 3.5rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
 .max-w-sm {
   max-width: 24rem;
+}
+
+.translate-y-full {
+  --tw-translate-y: 100%;
+  transform: var(--tw-transform);
 }
 
 .scale-x-\[-1\] {
@@ -1182,6 +1323,17 @@ a:hover {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .list-disc {
@@ -1228,6 +1380,10 @@ a:hover {
   overflow-x: hidden;
 }
 
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1240,8 +1396,36 @@ a:hover {
   border-radius: 9999px;
 }
 
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .border-0 {
   border-width: 0px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-\[3px\] {
+  border-width: 3px;
 }
 
 .border-b {
@@ -1265,9 +1449,19 @@ a:hover {
   border-color: rgba(219, 199, 180, var(--tw-border-opacity));
 }
 
+.border-text {
+  --tw-border-opacity: 1;
+  border-color: rgba(219, 199, 180, var(--tw-border-opacity));
+}
+
 .border-hlink {
   --tw-border-opacity: 1;
   border-color: rgba(193, 230, 234, var(--tw-border-opacity));
+}
+
+.border-dark {
+  --tw-border-opacity: 1;
+  border-color: rgba(77, 62, 49, var(--tw-border-opacity));
 }
 
 .bg-primary {
@@ -1308,6 +1502,10 @@ a:hover {
 .bg-circle {
   --tw-bg-opacity: 1;
   background-color: rgba(191, 160, 132, var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-none {
@@ -1412,6 +1610,26 @@ a:hover {
   padding-right: 0px;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pt-36 {
   padding-top: 9rem;
 }
@@ -1440,6 +1658,10 @@ a:hover {
   padding-left: 2rem;
 }
 
+.pt-32 {
+  padding-top: 8rem;
+}
+
 .pr-6 {
   padding-right: 1.5rem;
 }
@@ -1448,12 +1670,24 @@ a:hover {
   padding-right: 0.5rem;
 }
 
+.pb-44 {
+  padding-bottom: 11rem;
+}
+
+.pt-44 {
+  padding-top: 11rem;
+}
+
 .text-left {
   text-align: left;
 }
 
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .font-comet {
@@ -1475,13 +1709,13 @@ a:hover {
   line-height: 1rem;
 }
 
-.text-\[15px\] {
-  font-size: 15px;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .text-xl {
@@ -1492,6 +1726,16 @@ a:hover {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .font-light {
@@ -1510,6 +1754,10 @@ a:hover {
   font-weight: 800;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -1520,6 +1768,10 @@ a:hover {
 
 .leading-tight {
   line-height: 1.25;
+}
+
+.leading-\[1px\] {
+  line-height: 1px;
 }
 
 .text-gray-800 {
@@ -1557,6 +1809,21 @@ a:hover {
   color: rgba(32, 69, 77, var(--tw-text-opacity));
 }
 
+.text-dark {
+  --tw-text-opacity: 1;
+  color: rgba(77, 62, 49, var(--tw-text-opacity));
+}
+
+.text-\[\#37271B\] {
+  --tw-text-opacity: 1;
+  color: rgba(55, 39, 27, var(--tw-text-opacity));
+}
+
+.text-bgpage {
+  --tw-text-opacity: 1;
+  color: rgba(55, 39, 27, var(--tw-text-opacity));
+}
+
 .no-underline {
   text-decoration: none;
 }
@@ -1568,6 +1835,10 @@ a:hover {
 
 .opacity-70 {
   opacity: 0.7;
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .opacity-0 {
@@ -1613,6 +1884,10 @@ a:hover {
 
 .delay-500 {
   transition-delay: 500ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
 }
 
 .alignfull {
@@ -1874,11 +2149,6 @@ a:hover {
     color: rgba(55, 39, 27, var(--tw-text-opacity));
   }
 
-.site-content .btn1:hover {
-    --tw-text-opacity: 1;
-    color: rgba(55, 39, 27, var(--tw-text-opacity));
-  }
-
 .site-content .btn1.inactive {
       pointer-events: none !important;
     }
@@ -1886,6 +2156,45 @@ a:hover {
 .site-content .btn1.inactive {
       opacity: 0.3 !important;
     }
+
+.site-content .btn2 {
+    background-image: url(../assets/img/btn2.svg);
+    background-size: 100% 100%;
+  }
+
+.site-content .btn2 {
+    display: inline-block;
+  }
+
+.site-content .btn2 {
+    border-width: 0px;
+  }
+
+.site-content .btn2 {
+    background-position: center;
+  }
+
+.site-content .btn2 {
+    background-repeat: no-repeat;
+  }
+
+.site-content .btn2 {
+    text-align: center;
+  }
+
+.site-content .btn2 {
+    font-family: Little Comet, sans-serif;
+  }
+
+.site-content .btn2 {
+    --tw-text-opacity: 1;
+    color: rgba(55, 39, 27, var(--tw-text-opacity));
+  }
+
+.site-content .btn2:hover {
+    --tw-text-opacity: 1;
+    color: rgba(32, 69, 77, var(--tw-text-opacity));
+  }
 
 /* Swiper */
 
@@ -1973,6 +2282,10 @@ a:hover {
 
 /* Icons */
 
+.icon-eth {
+  background-image: url(../assets/img/icons/icon-eth.svg);
+}
+
 .icon-tw {
   background-image: url(../assets/img/icons/icon-twitter.svg);
 }
@@ -1985,13 +2298,13 @@ a:hover {
   background-image: url(../assets/img/icons/icon-discord.svg);
 }
 
-.icon-tw, .icon-tg, .icon-ds {
+.icon-eth, .icon-tw, .icon-tg, .icon-ds {
   display: inline-block;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.icon-tw i, .icon-tg i, .icon-ds i {
+.icon-eth i, .icon-tw i, .icon-tg i, .icon-ds i {
     display: none;
   }
 
@@ -2000,7 +2313,6 @@ a:hover {
 .hole {
   background-image: url(../assets/img/main-animation/hole.png);
   position: absolute;
-  cursor: pointer;
   overflow: hidden;
   background-size: contain;
   background-position: bottom;
@@ -2010,6 +2322,10 @@ a:hover {
 .hole .sign {
     margin-left: auto;
     margin-right: auto;
+  }
+
+.hole .sign {
+    margin-bottom: 0.25rem;
   }
 
 .hole .sign {
@@ -2024,6 +2340,10 @@ a:hover {
 
 .hole .sign {
     transition-duration: 1000ms;
+  }
+
+.hole .obj-hide {
+    margin-bottom: 0px;
   }
 
 .hole .obj-hide {
@@ -2052,7 +2372,7 @@ a:hover {
   }
 
 .hole .wombat {
-    height: 100%;
+    height: 97.5%;
   }
 
 .hole .wombat {
@@ -2086,6 +2406,10 @@ a:hover {
     }
 
 .hole .wombat .body0 {
+      margin-left: 0.5rem;
+    }
+
+.hole .wombat .body0 {
       height: 100%;
     }
 
@@ -2094,7 +2418,7 @@ a:hover {
     }
 
 .hole .wombat .body1 {
-      height: 99.5%;
+      height: 100%;
     }
 
 .hole .wombat .body1 {
@@ -2435,6 +2759,16 @@ a:hover {
         padding-right: 5rem;
       }
     }
+
+/* MINT HEADER */
+
+.hole-number {
+  text-shadow: -2px -2px 0 #37271B, 2px -2px 0 #37271B, -2px 2px 0 #37271B, 2px 2px 0 #37271B;
+  position: absolute;
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 700;
+}
 
 .hover\:cursor-pointer:hover {
   cursor: pointer;

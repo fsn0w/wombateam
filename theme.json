@@ -17,6 +17,11 @@
           "color": "#20454D"
         },
         {
+          "name": "Dark",
+          "slug": "dark",
+          "color": "#4D3E31"
+        },
+        {
           "name": "Menu",
           "slug": "menu",
           "color": "#997B5F"

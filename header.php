@@ -16,7 +16,7 @@
 <div id="page" class="min-h-screen flex flex-col overflow-x-hidden">
 
 	<?php do_action( 'tailpress_header' ); ?>
-	<header class="absolute w-full z-50 <?= (is_page_template('template-parts/main.php')?'':'bg-bgmenu'); ?>">
+	<header class="absolute w-full z-50 <?= (is_page_template('template-parts/main.php') || is_page_template('template-parts/mint.php') ?'':'bg-bgmenu'); ?>">
 		<div class="mx-auto px-4 lg:container">
 			<div class="lg:flex lg:justify-between lg:items-center py-3 lg:pt-6 lg:pb-10">
 				<div class="flex justify-between items-center">
