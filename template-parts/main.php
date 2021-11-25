@@ -35,7 +35,7 @@ get_header();
 
 <!-- Meet the WOMBATEAM -->
 
-    <div class="mx-auto container flex mb-0 lg:mb-28">
+    <div class="mx-auto container flex mb-0 lg:mb-28" id="team">
         <div class="pt-20 hidden lg:block"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/MeetWombats1.png" width="520" class="block -ml-16"/></div>
         <div class="w-full relative lg:w-4/6">
             <img src="<?=get_stylesheet_directory_uri()?>/assets/img/MeetWombats1.png" class="block absolute -right-20 -top-20 scale-x-[-1] w-44 lg:hidden"/>
@@ -47,7 +47,7 @@ get_header();
                 Each Wombat can poop a number of turds according to its rarity, and we have big plans on turning these pooping machines into an impactful, community-driven financial system. 
                 </p>
                 <p class="mt-6 lg:mt-10">
-                Read <a href="#roadmap">our roadmap</a> below to learn more.
+                Read <a href="/#roadmap">our roadmap</a> below to learn more.
                 </p>
                 <p class="mt-6 text-center lg:text-left lg:mt-20">
                     For news and launch alerts:
@@ -60,7 +60,7 @@ get_header();
 
 <!-- Roadmap -->
 
-<div class="mx-auto container flex flex-col lg:flex-row">
+<div class="mx-auto container flex flex-col lg:flex-row" id="roadmap">
         <div class="pt-10 lg:pt-20 lg:w-4/12">
             <h2 class="text-center lg:text-left">Introducing<br> Our Roadmap</h2>
         </div>
