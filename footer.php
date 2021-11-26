@@ -231,7 +231,7 @@ jQuery(document).ready(function($) {
         $input.val(count);
         $input.change();
 
-		$('.mint-price').val((parseInt($input.val())*tokenPrice).toFixed(1));
+		$('.mint-price').val((parseInt($input.val())*tokenPrice).toFixed(2));
 		$('.mint-price').change();
 
 		$('#hole'+(count+1)+' .wombat').addClass('obj-hide');
@@ -246,7 +246,7 @@ jQuery(document).ready(function($) {
             $input.val(parseInt($input.val()) + 1);
             $input.change();
 
-			$('.mint-price').val((parseInt($input.val())*tokenPrice).toFixed(1));
+			$('.mint-price').val((parseInt($input.val())*tokenPrice).toFixed(2));
 			$('.mint-price').change();
 
 			$('#hole'+$input.val()+' .wombat').removeClass('obj-hide');
