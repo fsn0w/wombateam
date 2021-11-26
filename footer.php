@@ -199,7 +199,7 @@ jQuery(document).ready(function() {
 
 					var maxTokens = "5";
 					var tokens = jQuery("#mint_n").val();
-					var amount = 0.2*tokens;
+					var amount = 0.5*tokens;
 
 					if (tokens>0) {
 						mint(maxTokens, tokens.toString(), amount.toString())
@@ -222,7 +222,7 @@ jQuery(document).ready(function($) {
 
 	const mintMin = 1;
     const mintMax = 5;
-	const tokenPrice = 0.2;
+	const tokenPrice = 0.5;
 
     $('.minus').click(function () {
         var $input = $(this).parent().find('input');
