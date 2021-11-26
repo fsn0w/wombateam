@@ -181,17 +181,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 
 <div class="hidden mx-auto mt-40 lg:flex lg:flex-row">
     <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
-      </div>
+      <div class="swiper-wrapper"></div>
     </div>
 </div>
     
@@ -209,30 +199,16 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 
         <div class="-mx-8 mb-8 flex flex-row lg:hidden">
             <div class="swiper mySwiper-mob">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
-            </div>
+                <div class="swiper-wrapper"></div>
             </div>
         </div>
             
         <!-- /Slider Mobile -->
 
             <p>We have a very diverse WombaTeam and no single member is like the other. <br><br>
-
             Our talented artist created 163 attributes and our algorithm created 10,000 combinations of them - some are more rare than others (with number 2 being the rarest… #JustSaying). <br><br>
-
             While you won’t know which one you’ll get until you mint it, you can rest assured it will be unique and poop cubes daily (all Wombats do).<br><br>
-
-            Please note that we will mint 300 Wombats (out of the 10,000) in advance, in order to reserve some for community giveaways, partners and the team.<br>
-</p>
+            Please note that we will mint 300 Wombats (out of the 10,000) in advance, in order to reserve some for community giveaways, partners and the team.<br></p>
 <div class="w-full text-center lg:mt-24"><a href="/mint/" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl ">Mint a Wombat</a></div>
         </div>
 </div>
@@ -247,8 +223,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
         <div class="w-full pl-8 lg:pl-0 lg:w-8/12">
         <h2 class="mb-10">The Team behind<br> the <span class="title-logo"><span>Wombateam</span></span></h2>
             <p>Believe it or not, we are all part of the same family, scattered around the world with various skill sets that are being put to the test with this ambitious project.
-            <br><br>
-            Well, to be honest, there’s one Guy we adopted along the way, but he's basically like family now.</p>
+            <br><br> Well, to be honest, there’s one Guy we adopted along the way, but he's basically like family now.</p>
         </div>
         
         <div class="mt-20 flex flex-col gap-10 lg:flex-row">
@@ -338,7 +313,17 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {
+
+      /* add 50 images */
+
+        let swiperList = document.querySelectorAll('.swiper-wrapper');
+        for (var i = 0; i < swiperList.length; i++) {
+            for (var n = 1; n < 51; n++) {
+                swiperList[i].innerHTML += '<div class="swiper-slide"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/nft/nft_('+n+').png" /></div>';
+            }
+        }
+
+        var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3.5,
         spaceBetween: 50,
         centeredSlides: true,
@@ -353,6 +338,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
         loop: true,
         loopFillGroupWithBlank: true,
       });
+
     </script>
 
 <?php

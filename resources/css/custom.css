@@ -81,14 +81,12 @@
     }
 
     .swiper-slide {
-        @apply text-center flex justify-center items-center bg-white cursor-pointer;
+        @apply text-center flex justify-center items-center cursor-pointer;
     }
 
     .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
         object-fit: cover;
+        @apply block w-full h-full rounded-[2rem];
     }
 
     /* Circles */
