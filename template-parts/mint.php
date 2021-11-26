@@ -13,7 +13,7 @@ get_header();
 
     <div class="w-full pt-28 bg-bgmenu lg:pt-44">
 
-        <div class="mx-auto container text-center -mb-20 relative z-20 lg:mb-[-17rem]">
+        <div class="mx-auto container text-center -mb-32 relative z-20 lg:mb-[-17rem]">
             <h1 class="text-center"><span class="text-dark">Mint Your Wombats</span></h1>
             <div class="whitespace-nowrap text-dark text-3xl text-center flex flex-row justify-center items-center my-4 lg:text-5xl">
                 <button class="minus border-[3px] border-dark rounded-lg w-8 h-8 font-light leading-[1px] mt-2 mx-4 lg:mt-4 lg:mx-8 lg:w-12 lg:h-12">&#8211;</button>
