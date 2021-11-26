@@ -52,7 +52,7 @@ get_header();
                 <p class="mt-6 text-center lg:text-left lg:mt-20">
                     For news and launch alerts:
                 </p>
-            <div class="text-center lg:text-left"><a href="https://discord.gg/vj7RmZeBnp" target="_blank" class="btn1 mt-2 py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">join our discrod channel</a></div>
+            <div class="text-center lg:text-left"><a href="https://discord.gg/vj7RmZeBnp" target="_blank" class="btn1 mt-2 py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">Join Our Discord Channel</a></div>
         </div>
     </div>
 
