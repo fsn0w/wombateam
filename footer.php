@@ -222,6 +222,7 @@ jQuery(document).ready(function($) {
 
 	const mintMin = 1;
     const mintMax = 5;
+	const tokenPrice = 0.2;
 
     $('.minus').click(function () {
         var $input = $(this).parent().find('input');
@@ -229,6 +230,10 @@ jQuery(document).ready(function($) {
         count = count < mintMin ? mintMin : count;
         $input.val(count);
         $input.change();
+
+		$('.mint-price').val((parseInt($input.val())*tokenPrice).toFixed(1));
+		$('.mint-price').change();
+
 		$('#hole'+(count+1)+' .wombat').addClass('obj-hide');
 
         return false;
@@ -240,6 +245,10 @@ jQuery(document).ready(function($) {
         if (parseInt($input.val())<mintMax) {
             $input.val(parseInt($input.val()) + 1);
             $input.change();
+
+			$('.mint-price').val((parseInt($input.val())*tokenPrice).toFixed(1));
+			$('.mint-price').change();
+
 			$('#hole'+$input.val()+' .wombat').removeClass('obj-hide');
         }
 

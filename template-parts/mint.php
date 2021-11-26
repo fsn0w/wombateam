@@ -20,7 +20,9 @@ get_header();
                     <span><input value="1" id="mint_n" class="mint-number bg-transparent border-0 inline-block w-8 font-bold text-5xl text-center lg:w-12 lg:text-7xl" disabled />/5</span>
                 <button class="plus border-[3px] border-dark rounded-lg w-8 h-8 font-light leading-[1px] mt-2 mx-4 lg:mt-4 lg:mx-8 lg:w-12 lg:h-12">&#43;</button>
             </div>
-            <span class="text-[#37271B] text-lg lg:text-2xl">Price: <strong>0.2 <span class="text-xs lg:text-sm">ETH</span></strong></span>
+            <span class="text-[#37271B] text-lg lg:text-2xl">Price: 
+                <input value="0.2" class="mint-price bg-transparent border-0 inline-block w-8 font-bold text-center text-lg lg:w-12 lg:text-2xl" disabled /> 
+                <span class="text-xs font-bold lg:text-sm">ETH</span></span>
             <div class="text-center"><button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 lg:py-8 lg:px-16 lg:text-5xl">Mint</button></div>
         </div>
 
