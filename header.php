@@ -13,7 +13,7 @@
 
 <?php do_action( 'tailpress_site_before' ); ?>
 
-<div id="page" class="min-h-screen flex flex-col overflow-x-hidden">
+<div id="page" class="<?= (is_page_template('template-parts/mint.php') ?'':'min-h-screen'); ?> flex flex-col overflow-x-hidden">
 
 	<?php do_action( 'tailpress_header' ); ?>
 	<header class="absolute w-full z-50 <?= (is_page_template('template-parts/main.php') || is_page_template('template-parts/mint.php') ?'':'bg-bgmenu'); ?>">

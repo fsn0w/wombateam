@@ -246,5 +246,5 @@
 
       .hole-number {
               text-shadow: -2px -2px 0 #37271B, 2px -2px 0 #37271B, -2px 2px 0 #37271B, 2px 2px 0 #37271B;
-              @apply absolute text-6xl font-bold;
+              @apply absolute text-sm font-bold lg:text-6xl;
           }
