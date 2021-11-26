@@ -35,7 +35,7 @@ get_header();
 
 <!-- Meet the WOMBATEAM -->
 
-    <div class="mx-auto container flex mb-0 lg:mb-28" id="team">
+    <div class="mx-auto container flex mb-0 lg:mb-28">
         <div class="pt-20 hidden lg:block"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/MeetWombats1.png" width="520" class="block -ml-16"/></div>
         <div class="w-full relative lg:w-4/6">
             <img src="<?=get_stylesheet_directory_uri()?>/assets/img/MeetWombats1.png" class="block absolute -right-20 -top-20 scale-x-[-1] w-44 lg:hidden"/>
@@ -243,7 +243,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 
 <!-- Team -->
 
-<div class="mx-auto mt-20 container lg:mt-40">
+<div class="mx-auto mt-20 container lg:mt-40" id="team">
         <div class="w-full pl-8 lg:pl-0 lg:w-8/12">
         <h2 class="mb-10">The Team behind<br> the <span class="title-logo"><span>Wombateam</span></span></h2>
             <p>Believe it or not, we are all part of the same family, scattered around the world with various skill sets that are being put to the test with this ambitious project.
