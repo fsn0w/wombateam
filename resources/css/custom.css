@@ -77,7 +77,7 @@
     /* Swiper */
 
     .swiper {
-        @apply w-full h-52 lg:h-[500px];
+        @apply w-full h-auto lg:h-[500px];
     }
 
     .swiper-slide {
@@ -86,7 +86,7 @@
 
     .swiper-slide img {
         object-fit: cover;
-        @apply block w-full h-full rounded-[2rem];
+        @apply block h-full w-auto rounded-[2rem] lg:w-full lg:h-auto;
     }
 
     /* Circles */
