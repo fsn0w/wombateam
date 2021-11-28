@@ -169,7 +169,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 
 <!-- C2A -->
 
-<div class="mx-auto container flex flex-col bg-no-repeat lg:bg-img-dash lg:flex-row">
+<div class="mx-auto container flex flex-col bg-no-repeat bg-left-top lg:bg-img-dash lg:flex-row">
         <div class="w-full text-center">
             <strong>Get your shit together!</strong><br>Join the WombaTeam revolution<br>
 
@@ -271,7 +271,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 <!-- TL;DR -->
 
 <div class="mx-auto mt-20 relative container bg-top bg-no-repeat lg:bg-img-12 lg:mt-40">
-        <div class="absolute left-0 bg-contain top-0 w-full h-20 bg-no-repeat bg-top bg-img-12 "></div>
+        <div class="absolute left-0 bg-contain top-0 w-full h-20 bg-no-repeat bg-top bg-img-12 lg:hidden"></div>
         <h2 class="mb-10 text-center lg:mb-16">TL;DR</h2>
 
         <div class="flex flex-col gap-10 mb-10 lg:mb-16 lg:flex-row">
