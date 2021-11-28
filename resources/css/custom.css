@@ -129,8 +129,14 @@
             background-image: url(../assets/img/main-animation/hole.png);
             @apply absolute bg-no-repeat bg-contain bg-bottom overflow-hidden;
 
+            &::after {
+                content: '';
+                background-image: url(../assets/img/main-animation/hole_mask.png);
+                @apply absolute w-full h-full bg-no-repeat bg-bottom bg-contain top-0;
+            }
+
         & .sign {
-            @apply mx-auto transition-all delay-500 duration-1000 mb-1;
+            @apply mx-auto transition-all delay-500 duration-1000;
         }
 
         & .obj-hide {

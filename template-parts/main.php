@@ -11,7 +11,7 @@ get_header();
 
 <!-- Animation -->
 
-<div class="w-full mb-24 pt-20 bg-bgmenu overflow-hidden lg:pt-0">
+<div class="w-full mb-6 pt-20 bg-bgmenu overflow-hidden lg:pt-0">
     <div class="relative z-10 bg-cover" style="background-image:url('<?=get_stylesheet_directory_uri()?>/assets/img/main-animation/header_bg_front.png')">
         <div id="holes" class="absolute z-10 top-1/3 h-2/5 w-full">
             <div id="hole7" class="hole w-[13%] min-h-[50%] bottom-[55%] left-[68%] cursor-pointer"></div>
@@ -36,10 +36,11 @@ get_header();
 <!-- Meet the WOMBATEAM -->
 
     <div class="mx-auto container flex mb-0 lg:mb-28">
-        <div class="pt-20 hidden lg:block"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/MeetWombats1.png" width="520" class="block -ml-16"/></div>
-        <div class="w-full relative lg:w-4/6">
-            <img src="<?=get_stylesheet_directory_uri()?>/assets/img/MeetWombats1.png" class="block absolute -right-20 -top-20 scale-x-[-1] w-44 lg:hidden"/>
-            <h1>Meet the <br/><span class="title-logo"><span>Wombateam</span></span></h1>
+        <div class="pt-20 hidden lg:block bg-no-repeat bg-left-top bg-img-5"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/MeetWombats1.png" width="520" class="block -ml-16"/></div>
+        <div class="w-full relative lg:w-4/6 bg-no-repeat lg:bg-img-3 lg:bg-right-top">
+            <img src="<?=get_stylesheet_directory_uri()?>/assets/img/MeetWombats1.png" class="block absolute -right-20 -top-4 scale-x-[-1] w-44 lg:hidden"/>
+            <div class="bg-no-repeat bg-left-top bg-img-5 bg-contain h-10 mb-10 lg:hidden"></div>
+            <h1>Meet the <br/><span class="title-logo"><span>Wombateam</span></span></h1> 
                 <p class="mt-10">
                 The WombaTeam NFTs are NOT your ordinary collectibles. This group of 10K unique wombats gives a shit - literally.
                 </p>
@@ -60,12 +61,12 @@ get_header();
 
 <!-- Roadmap -->
 
-<div class="mx-auto container flex flex-col lg:flex-row" id="roadmap">
-        <div class="pt-10 lg:pt-20 lg:w-4/12">
+<div class="mx-auto container flex flex-col lg:flex-row bg-no-repeat bg-left-bottom lg:bg-img-1" id="roadmap">
+        <div class="pt-10 lg:pt-20 lg:w-4/12 bg-no-repeat bg-right-top lg:bg-img-4">
             <h2 class="text-center lg:text-left">Introducing<br> Our Roadmap</h2>
         </div>
         <div class="w-full relative lg:w-8/12">
-            <img src="<?=get_stylesheet_directory_uri()?>/assets/img/roadmap_drums.png" width="679" class="mx-auto" alt="Introducing Our Roadmap" />
+            <img src="<?=get_stylesheet_directory_uri()?>/assets/img/roadmap_drums_wpoo.png" width="679" class="mx-auto" alt="Introducing Our Roadmap" />
         </div>
 </div>
     
@@ -76,7 +77,7 @@ get_header();
 <!-- Stage 1 -->
 
 <div class="mx-auto container flex flex-col lg:flex-row">
-        <div class="text-center px-6 lg:px-0 lg:w-4/12">
+        <div class="text-center px-6 bg-no-repeat bg-bottom lg:bg-img-11 lg:px-0 lg:w-4/12">
             <h2 class="mb-10 uppercase lg:normal-case">Stage 1</h2>
             <img src="<?=get_stylesheet_directory_uri()?>/assets/img/stage1_wombateam.png" width="323" alt="Stage 1" class="mx-auto" />
         </div>
@@ -87,7 +88,7 @@ Minting a Wombat costs 0.05 ETH (+ gas fee) and each one will have a different c
 
 You've probably noticed it by now, but we love wombats. <strong>That’s why we will be donating 10% of all sales to Wombat-related charities and research</strong> (as per the DAO - see Stage 3)<strong>.</strong> 
             </p>
-            <div class="mt-16 text-center lg:mx-0 lg:text-left">
+            <div class="mt-16 text-center bg-no-repeat bg-right-top lg:bg-img-10 lg:mx-0 lg:text-left">
                 <a href="/mint/" class="btn1 mt-2 py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">Mint a Wombat</a>
                 <p class="mt-8 text-center lg:text-left lg:text-3xl">Launch date will be announced on our <a href="https://t.me/WombaTeam" target="_blank">Telegram</a> & <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord</a> channels</p>
             </div>
@@ -150,12 +151,14 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 
 <!-- Stage 4 -->
 
-<div class="mx-auto container flex flex-col lg:flex-row">
+<div class="mx-auto relative container flex flex-col lg:flex-row">
+        <div class="absolute -left-4 h-20 w-32 bg-img-coins bg-contain bg-no-repeat bg-left-top lg:hidden"></div>
+        <div class="absolute -right-20 -bottom-24 h-20 w-32 bg-img-dash bg-contain bg-no-repeat bg-left-top lg:hidden"></div>
         <div class="text-center px-6 lg:px-0 lg:w-4/12">
             <h2 class="mb-6 uppercase lg:normal-case">Stage 4</h2>
             <img src="<?=get_stylesheet_directory_uri()?>/assets/img/stage4_shitmoney.png" width="313" alt="Stage 4" class="mx-auto mb-4" />
         </div>
-        <div class="w-full px-6 lg:px-0 lg:w-8/12 lg:text-center lg:leading-normal">
+        <div class="w-full px-6 lg:px-0 lg:w-8/12 bg-no-repeat lg:bg-img-coins lg:bg-right-bottom lg:text-center lg:leading-normal">
             Because <span class="lg:block lg:uppercase lg:font-comet lg:text-title">everybody</span> is allowed to <span class="lg:block lg:uppercase lg:font-comet lg:text-title">dream,</span> right? ;)
         </div>
 </div>
@@ -166,7 +169,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 
 <!-- C2A -->
 
-<div class="mx-auto container flex flex-col lg:flex-row">
+<div class="mx-auto container flex flex-col bg-no-repeat lg:bg-img-dash lg:flex-row">
         <div class="w-full text-center">
             <strong>Get your shit together!</strong><br>Join the WombaTeam revolution<br>
 
@@ -188,38 +191,39 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 <!-- /Slider -->
 
 <!-- Sneak peek -->
-
-<div class="mx-auto mt-10 container flex flex-col lg:mt-40 lg:flex-row">
-        <div class="lg:w-4/12">
-        </div>
-        <div class="w-full lg:w-8/12">
-        <h2 class="mb-10 text-center lg:text-left">Get a sneak peek</h2>
-
-        <!-- Slider Mobile -->
-
-        <div class="-mx-8 mb-8 flex flex-row lg:hidden">
-            <div class="swiper mySwiper-mob">
-                <div class="swiper-wrapper"></div>
+<div class="w-full lg:bg-left-top lg:bg-no-repeat lg:bg-img-sneakpeak">
+    <div class="mx-auto mt-10 container flex flex-col lg:mt-40 lg:flex-row">
+            <div class="lg:w-4/12">
             </div>
-        </div>
-            
-        <!-- /Slider Mobile -->
+            <div class="w-full lg:w-8/12">
+            <h2 class="mb-10 text-center lg:text-left">Get a sneak peek</h2>
 
-            <p>We have a very diverse WombaTeam and no single member is like the other. <br><br>
-            Our talented artist created 163 attributes and our algorithm created 10,000 combinations of them - some are more rare than others (with number 2 being the rarest… #JustSaying). <br><br>
-            While you won’t know which one you’ll get until you mint it, you can rest assured it will be unique and poop cubes daily (all Wombats do).<br><br>
-            Please note that we will mint 300 Wombats (out of the 10,000) in advance, in order to reserve some for community giveaways, partners and the team.<br></p>
-<div class="w-full text-center lg:mt-24"><a href="/mint/" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl ">Mint a Wombat</a></div>
-        </div>
-</div>
-    
+            <!-- Slider Mobile -->
+
+            <div class="-mx-8 mb-8 flex flex-row lg:hidden">
+                <div class="swiper mySwiper-mob">
+                    <div class="swiper-wrapper"></div>
+                </div>
+            </div>
+                
+            <!-- /Slider Mobile -->
+
+                <p>We have a very diverse WombaTeam and no single member is like the other. <br><br>
+                Our talented artist created 163 attributes and our algorithm created 10,000 combinations of them - some are more rare than others (with number 2 being the rarest… #JustSaying). <br><br>
+                While you won’t know which one you’ll get until you mint it, you can rest assured it will be unique and poop cubes daily (all Wombats do).<br><br>
+                Please note that we will mint 300 Wombats (out of the 10,000) in advance, in order to reserve some for community giveaways, partners and the team.<br></p>
+    <div class="w-full text-center lg:mt-24"><a href="/mint/" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl ">Mint a Wombat</a></div>
+            </div>
+    </div>
+</div>    
 <!-- /Sneak peak -->
 
 <div class="divider my-24 lg:hidden"></div>
 
 <!-- Team -->
 
-<div class="mx-auto mt-20 container lg:mt-40" id="team">
+<div class="mx-auto relative mt-20 container bg-no-repeat lg:bg-img-8 lg:bg-right-top lg:mt-40" id="team">
+        <div class="absolute left-0 h-full w-12 bg-no-repeat bg-contain bg-img-team-mob bg-left-top"></div>
         <div class="w-full pl-8 lg:pl-0 lg:w-8/12">
         <h2 class="mb-10">The Team behind<br> the <span class="title-logo"><span>Wombateam</span></span></h2>
             <p>Believe it or not, we are all part of the same family, scattered around the world with various skill sets that are being put to the test with this ambitious project.
@@ -266,8 +270,8 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 
 <!-- TL;DR -->
 
-<div class="mx-auto mt-20 container lg:mt-40">
-
+<div class="mx-auto mt-20 relative container bg-top bg-no-repeat lg:bg-img-12 lg:mt-40">
+        <div class="absolute left-0 bg-contain top-0 w-full h-20 bg-no-repeat bg-top bg-img-12 "></div>
         <h2 class="mb-10 text-center lg:mb-16">TL;DR</h2>
 
         <div class="flex flex-col gap-10 mb-10 lg:mb-16 lg:flex-row">
