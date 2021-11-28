@@ -169,8 +169,8 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 
 <!-- C2A -->
 
-<div class="mx-auto container flex flex-col bg-no-repeat bg-left-top lg:bg-img-dash lg:flex-row">
-        <div class="w-full text-center">
+<div class="mx-auto container flex flex-col lg:flex-row">
+        <div class="w-full text-center bg-no-repeat bg-left-top lg:bg-img-dash">
             <strong>Get your shit together!</strong><br>Join the WombaTeam revolution<br>
 
             <a href="https://discord.gg/vj7RmZeBnp" target="_blank" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl ">Join Our Discord Channel</a>
