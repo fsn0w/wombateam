@@ -38,7 +38,7 @@ module.exports = {
                 'img-sneakpeak': "url('../assets/img/bg/sneak-peak.png')",
                 'img-team-mob': "url('../assets/img/bg/team-mob.png')",
                 'img-coins': "url('../assets/img/bg/coins.png')",
-                'img-dash': "url('../assets/img/bg/dash.png')",
+                'img-dash': "url('../assets/img/bg/dash-coin.png')",
                 'img-8': "url('../assets/img/bg/8.png')",
                 'img-10': "url('../assets/img/bg/10.png')",
                 'img-11': "url('../assets/img/bg/11.png')",
