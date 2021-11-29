@@ -110,7 +110,7 @@ You've probably noticed it by now, but we love wombats. <strong>That’s why we 
             <p>
                 Once we hit the P-Day (the exact timing of which is kept secret and will be shared with our allies over encrypted channels), your Wombat will start pooping <strong>WPOO tokens</strong> and trust us, it’s going to be an absolute shitshow.<br><br>
 
-                These adorable marsupiasl poop up to 80 cubes per day - yes, they really drop that many cube-shaped turds on the daily. Magical, isn't it?!
+                These adorable marsupials poop up to 80 cubes per day - yes, they really drop that many cube-shaped turds on the daily. Magical, isn't it?!
                 <br><br>
 
                 The number of Wpoo tokens your wombat will produce daily will depend on its rarity. The larger the rarity factor, the more tokens you will get.<br><br>
@@ -141,7 +141,7 @@ We shit you not!<br><br>
 
 As a DAO member you‘ll get a chance to participate in additional projects, decide on important things like which Wombat-related charity will get our support, our future road map and other (stinky) business decisions.    
             </p>
-            <p class="mt-8"><a href="#learn_more">Learn More</a></p>
+            <p class="mt-8"><a href="/faq/">Learn More</a></p>
         </div>
 </div>
     
@@ -223,7 +223,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 <!-- Team -->
 
 <div class="mx-auto relative mt-20 container bg-no-repeat lg:bg-img-8 lg:bg-right-top lg:mt-40" id="team">
-        <div class="absolute left-0 h-full w-12 bg-no-repeat bg-contain bg-img-team-mob bg-left-top"></div>
+        <div class="absolute left-0 h-full w-12 bg-no-repeat bg-contain bg-img-team-mob bg-left-top lg:hidden"></div>
         <div class="w-full pl-8 lg:pl-0 lg:w-8/12">
         <h2 class="mb-10">The Team behind<br> the <span class="title-logo"><span>Wombateam</span></span></h2>
             <p>Believe it or not, we are all part of the same family, scattered around the world with various skill sets that are being put to the test with this ambitious project.
