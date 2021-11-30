@@ -1,7 +1,7 @@
 jQuery( document ).ready(function($) {
 
     if ($( document ).width() < 640) {
-        $('#hole3').html('<div class="wombat w-full obj-show"><div class="body0"></div></div>');
+        $('#hole3').html('<div class="wombat w-full obj-show"><a href="#meet" class="body0"></a></div>');
         $('#hole2>div').removeClass( 'sign-animation' );
     }
     
