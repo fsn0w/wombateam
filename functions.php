@@ -57,7 +57,7 @@ function tailpress_enqueue_scripts() {
 
 	wp_enqueue_style( 'tailpress', tailpress_asset( 'css/app.css' ), array(),'0.115' );
 	wp_enqueue_script( 'tailpress', tailpress_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
-	if (is_page_template('template-parts/main.php')) { wp_enqueue_script( 'main', get_template_directory_uri() . '/js/animation.js', array('jquery'), '0.35' ); }
+	if (is_page_template('template-parts/main.php')) { wp_enqueue_script( 'main', get_template_directory_uri() . '/js/animation.js', array('jquery'), '0.36' ); }
 }
 
 add_action( 'wp_enqueue_scripts', 'tailpress_enqueue_scripts' );

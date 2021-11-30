@@ -32,7 +32,7 @@ jQuery( document ).ready(function($) {
 
         $('html, body').animate({
             scrollTop: $("#meet").offset().top
-        }, 2000);
+        }, 500);
         console.log('cached');
 
     } );
