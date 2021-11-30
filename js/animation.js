@@ -47,7 +47,7 @@ jQuery( document ).ready(function($) {
         var n,
             body = Math.floor(Math.random() * 2);
         setTimeout(function() {
-            $('#hole'+n).html('<div class="wombat w-full obj-hide"><div class="body'+body+'"></div></div>');
+            $('#hole'+n).html('<div class="wombat w-full obj-hide"><a href="#meet" class="body'+body+'"></a></div>');
             $('#hole'+n+' .wombat').addClass( 'obj-show' ).removeClass( 'obj-hide' );
         }, 500);
     }
