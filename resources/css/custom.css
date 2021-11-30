@@ -74,6 +74,12 @@
         @apply inline-block bg-no-repeat bg-center text-center font-comet text-bgpage border-0 hover:text-secondary;
     }
 
+    .mint-btn-soon::after {
+        content: 'Coming soon...';
+        position: absolute;
+        right: -100px;
+    }
+
     /* Swiper */
 
     .swiper {

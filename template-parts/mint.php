@@ -23,7 +23,7 @@ get_header();
             <span class="text-[#37271B] text-lg lg:text-2xl">Price: 
                 <input value="0.05" class="mint-price bg-transparent border-0 inline-block w-12 font-bold text-center text-lg lg:w-14 lg:text-2xl" disabled /> 
                 <span class="text-xs font-bold lg:text-sm">ETH</span></span> 
-            <div class="text-center"><button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 lg:py-8 lg:px-16 lg:text-5xl">Mint</button></div>
+            <div class="text-center"><button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 mint-btn-soon lg:py-8 lg:px-16 lg:text-5xl">Mint</button></div>
         </div>
 
         <div class="w-full pt-20 overflow-hidden relative lg:pt-0">
