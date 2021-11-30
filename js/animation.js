@@ -28,7 +28,7 @@ jQuery( document ).ready(function($) {
         } 
     } );  
     
-    $( '.obj-show' ).mouseover( function( event ) {
+    $( '.wombat' ).mouseover( function( event ) {
 
         $('html, body').animate({
             scrollTop: $("#meet").offset().top
