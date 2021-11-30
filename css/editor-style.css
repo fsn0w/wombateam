@@ -204,6 +204,10 @@
   right: -6rem
 }
 
+.top-12 {
+  top: 3rem
+}
+
 .z-50 {
   z-index: 50
 }
@@ -355,6 +359,10 @@
 
 .-mb-6 {
   margin-bottom: -1.5rem
+}
+
+.ml-5 {
+  margin-left: 1.25rem
 }
 
 .block {
