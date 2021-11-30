@@ -923,14 +923,6 @@ a:hover {
   left: 9px;
 }
 
-.-right-24 {
-  right: -6rem;
-}
-
-.top-12 {
-  top: 3rem;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -994,6 +986,11 @@ a:hover {
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mt-2 {
@@ -1076,16 +1073,16 @@ a:hover {
   margin-bottom: -8rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .-mt-4 {
   margin-top: -1rem;
 }
 
 .-mb-6 {
   margin-bottom: -1.5rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
 }
 
 .block {
@@ -1809,6 +1806,10 @@ a:hover {
 
 .opacity-30 {
   opacity: 0.3;
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .shadow-inner {

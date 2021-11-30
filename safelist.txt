@@ -12,3 +12,4 @@ opacity-70
 mt-2
 inline
 block
+opacity-60
