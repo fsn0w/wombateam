@@ -28,7 +28,7 @@ jQuery( document ).ready(function($) {
         } 
     } );  
     
-    $( '.wombat' ).mouseover( function( event ) {
+    $( '.hole' ).click( function( event ) {
 
         $('html, body').animate({
             scrollTop: $("#meet").offset().top
