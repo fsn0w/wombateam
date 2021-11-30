@@ -25,7 +25,7 @@ get_header();
                 <span class="text-xs font-bold lg:text-sm">ETH</span></span> 
             <div class="text-center relative">
                 <button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 lg:py-8 lg:px-16 lg:text-5xl">Mint</button>
-                <span class="absolute -right-24">Coming soon...</span>
+                <span class="absolute text-dark top-4">Coming soon...</span>
             </div>
         </div>
 
