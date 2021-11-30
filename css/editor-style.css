@@ -200,6 +200,10 @@
   left: 9px
 }
 
+.-right-24 {
+  right: -6rem
+}
+
 .z-50 {
   z-index: 50
 }

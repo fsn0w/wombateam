@@ -923,6 +923,10 @@ a:hover {
   left: 9px;
 }
 
+.-right-24 {
+  right: -6rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -2140,12 +2144,6 @@ a:hover {
 .site-content .btn2:hover {
     --tw-text-opacity: 1;
     color: rgba(32, 69, 77, var(--tw-text-opacity));
-  }
-
-.site-content .mint-btn-soon::after {
-    content: 'Coming soon...';
-    position: absolute;
-    right: -100px;
   }
 
 /* Swiper */
