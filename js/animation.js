@@ -1,7 +1,7 @@
 jQuery( document ).ready(function($) {
 
     if ($( document ).width() < 640) {
-        $('#hole3').html('<div class="wombat w-full obj-show"><a href="#meet" class="body0 block"></a></div>');
+        $('#hole3').html('<div class="wombat w-full obj-show"><div class="body0"></div></div>');
         $('#hole2>div').removeClass( 'sign-animation' );
     }
     
@@ -18,7 +18,7 @@ jQuery( document ).ready(function($) {
     
     $( '#holes' ).mousemove( function( event ) {
     
-    if ( isNear( $( '.wombat.obj-show' ), 10, event ) ) {
+        if ( isNear( $( '.wombat.obj-show' ), 10, event ) ) {
             $('.wombat').addClass( 'obj-hide' ).removeClass( 'obj-show' );
             x = n;
             while(x===n) { // to not repeat the hole
@@ -26,7 +26,15 @@ jQuery( document ).ready(function($) {
             }
             wombatPlay(n);
         } 
-    } );           
+    } );  
+    
+    $( '.obj-show' ).mouseover( function( event ) {
+
+        $('html, body').animate({
+            scrollTop: $("#meet").offset().top
+        }, 2000);
+
+    } );
     
     function isNear( $element, distance, event ) {
         var left = $element.offset().left - distance,
@@ -47,7 +55,7 @@ jQuery( document ).ready(function($) {
         var n,
             body = Math.floor(Math.random() * 2);
         setTimeout(function() {
-            $('#hole'+n).html('<div class="wombat w-full obj-hide"><a href="#meet" class="body'+body+' block"></a></div>');
+            $('#hole'+n).html('<div class="wombat w-full obj-hide"><div class="body'+body+'"></div></div>');
             $('#hole'+n+' .wombat').addClass( 'obj-show' ).removeClass( 'obj-hide' );
         }, 500);
     }
