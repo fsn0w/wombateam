@@ -33,6 +33,7 @@ jQuery( document ).ready(function($) {
         $('html, body').animate({
             scrollTop: $("#meet").offset().top
         }, 2000);
+        console.log('cached');
 
     } );
     
