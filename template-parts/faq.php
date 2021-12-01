@@ -142,7 +142,8 @@ In our case - staking your WPOO tokens (which basically means locking them in a 
                 <button aria-expanded="false"><span class="accordion-title">Where does the WDAO get its earnings from?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
                         <p>This is an excellent question! Unlike most of the DAOs out there, Wombat DAO will be launching without a predefined goal in mind and the DAO members will be the ones raising proposals as to particular projects & directions they’d like to build/run. It’s basically starting with a clean slate and anything should be possible, as the only limiting factor would be your imagination. Some activities could be not for profit, other - for profit and if built and executed properly (this is where the community plays the most important role), these would generate various revenue streams for Wombat DAO treasury.
-For example - half of the royalties from the secondary sales of the WombaTeam NFT’s will go into the treasury. </p>
+                        <br/>
+                        For example - half of the royalties from the secondary sales of the WombaTeam NFT’s will go into the treasury. </p>
                     </div>
                 </div>
                 <div class="accordion-item">

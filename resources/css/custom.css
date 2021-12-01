@@ -231,7 +231,7 @@
             opacity: 1;
             transition: all 200ms linear;
             will-change: opacity, max-height;
-            @apply max-h-[50em] lg:max-h-[26em];
+            @apply max-h-[50em] lg:max-h-[30em];
           }
         }
         .accordion-content {
