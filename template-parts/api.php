@@ -4,7 +4,7 @@
  *
  */
 
-$after_reveal = true;
+$after_reveal = ($_GET['reveal']=='true'?true:false);
 
 $contract="0xb531b3DaA87F3864f45866B5236114b76Af0ECA0";
 $api="PVP6WAPH57Z2TCHRTA5PCTX9H5Q866IC75";
