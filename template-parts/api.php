@@ -21,7 +21,7 @@ else:
 endif;
 
 if($json === FALSE):
-    echo 'missing ';
+    echo 'missing '.dirname(__FILE__)."/nft_json/real_json/".$token;
 else: 
     echo $json;
 endif;
