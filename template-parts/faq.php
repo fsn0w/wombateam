@@ -192,7 +192,7 @@ In our case - staking your WPOO tokens (which basically means locking them in a 
             this.setAttribute('aria-expanded', 'false');
         }
     }
-    items.forEach(item => item.addEventListener('click', toggleAccordion));
+    items.forEach(item => item.addEventListener('click', toggleAccordion)); 
 </script>
 
 <?php
