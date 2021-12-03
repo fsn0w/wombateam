@@ -5,7 +5,7 @@
  */
 
 $base = dirname(__FILE__);
-$path = dirname(dirname(dirname(dirname($base))));
+$path = get_home_path();
 
 $after_reveal = ($_GET['reveal']=='true'?true:false);
 
