@@ -21,7 +21,7 @@ else:
 endif;
 
 if($json === FALSE):
-    echo 'missing '.get_template_directory()."/assets/nft/def_json/".$token;
+    echo 'missing ';
 else: 
     echo $json;
 endif;
