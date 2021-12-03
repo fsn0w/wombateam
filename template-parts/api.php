@@ -4,6 +4,9 @@
  *
  */
 
+$base = dirname(__FILE__);
+$path = dirname(dirname(dirname($base)));
+
 $after_reveal = ($_GET['reveal']=='true'?true:false);
 
 $contract="0xb531b3DaA87F3864f45866B5236114b76Af0ECA0";
@@ -15,13 +18,13 @@ $result = file_get_contents("https://api-rinkeby.etherscan.io/api?module=stats&a
 $contract_supply = json_decode($result, true);
 
 if ($after_reveal && $token <= $contract_supply):
-    $json = @file_get_contents(dirname(__FILE__)."/nft_json/real_json/".$token);
+    $json = @file_get_contents($path."/nft_json/real_json/".$token);
 else: 
-    $json = @file_get_contents(dirname(__FILE__)."/nft_json/def_json/".$token);
+    $json = @file_get_contents($path."/nft_json/def_json/".$token);
 endif;
 
 if($json === FALSE):
-    echo 'missing '.dirname(__FILE__)."/nft_json/real_json/".$token;
+    echo 'missing '.$path."/nft_json/real_json/".$token;
 else: 
     echo $json;
 endif;
