@@ -5,6 +5,7 @@
  */
 
 $path = 'https://wombat.team/nft_json';
+echo get_template_directory();
 
 $after_reveal = ($_GET['reveal']=='true'?true:false);
 
