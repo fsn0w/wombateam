@@ -29,6 +29,6 @@ else:
 endif;
 
 echo 'test <br>';
-echo 'supply: '.$contract_supply;
+var_dump ( 'supply: '.$contract_supply );
 
 ?>
