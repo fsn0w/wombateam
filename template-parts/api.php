@@ -28,4 +28,7 @@ else:
     echo $json;
 endif;
 
+echo 'test <br>';
+echo 'supply: '.$contract_supply;
+
 ?>
