@@ -16,7 +16,7 @@ $token = get_query_var('token');
 $result = file_get_contents("https://api-rinkeby.etherscan.io/api?module=stats&action=tokensupply&contractaddress=".$contract."&apikey=".$api);
 $contract_supply = json_decode($result, true);
 
-if ($after_reveal && $token <= $contract_supply):
+if ($after_reveal && $token <= $contract_supply["result"]):
    $json = file_get_contents($path."nft_json/real_json/".$token);
 else: 
   $json = file_get_contents($path."nft_json/def_json/".$token);
@@ -28,7 +28,7 @@ else:
     echo $json;
 endif;
 
-echo 'test <br>';
-var_dump( $contract_supply );
+echo 'token: '.$token;
+var_dump( $contract_supply["result"] );
 
 ?>
