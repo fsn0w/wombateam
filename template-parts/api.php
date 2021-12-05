@@ -28,7 +28,4 @@ else:
     echo $json;
 endif;
 
-echo 'token: '.$token;
-var_dump( $contract_supply["result"] );
-
 ?>
