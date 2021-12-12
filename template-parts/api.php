@@ -6,7 +6,7 @@
 
 $path = "/var/www/html/";
 
-$after_reveal = true;
+$after_reveal = false;
 
 $contract="0xb82A72453403f350E14B8bF7dcc6FBD045Cc0d3C";
 $api="PVP6WAPH57Z2TCHRTA5PCTX9H5Q866IC75";
