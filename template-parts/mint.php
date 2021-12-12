@@ -24,8 +24,14 @@ get_header();
                 <input value="0.05" class="mint-price bg-transparent border-0 inline-block w-12 font-bold text-center text-lg lg:w-14 lg:text-2xl" disabled /> 
                 <span class="text-xs font-bold lg:text-sm">ETH</span></span> 
             <div class="text-center relative">
-                <button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 mx-4 opacity-60 lg:py-8 lg:px-16 lg:text-5xl">Mint</button>
-                <span class="absolute text-dark font-bold text-lg lg:mt-12 lg:text-2xl">Coming soon...</span>
+                <button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 mx-6 opacity-60 lg:py-8 lg:px-16 lg:text-5xl">Mint</button>
+                <span id="countdown" class="absolute text-dark font-bold text-lg lg:mt-7 lg:text-2xl">
+                        <ul class="flex gap-3">
+                            <li><div id="hours" class="text-4xl bg-[#e0e3e6] rounded-lg -mb-1"></div><span class="uppercase text-sm ">Hours</span></li>
+                            <li><div id="minutes" class="text-4xl bg-[#e0e3e6] rounded-lg -mb-1"></div><span class="uppercase text-sm ">Minutes</span></li>
+                            <li><div id="seconds" class="text-4xl bg-[#e0e3e6] rounded-lg -mb-1"></div><span class="uppercase text-sm ">Seconds</span></li>
+                        </ul>
+                </span>
             </div>
         </div>
 
@@ -67,6 +73,38 @@ get_header();
     </div>
 
 </div>
+
+    <script>
+(function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  let start = "Dec 13, 2021 12:00:00",
+      countDown = new Date(start ).getTime(),
+      x = setInterval(function() {    
+
+        var d = new Date();
+           var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+            var distance = countDown - utc;
+
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        if (distance < 0) {
+          let countdown = document.getElementById("countdown"),
+              mintBtn = document.getElementById("mintbtn");
+
+          countdown.style.display = "none";
+          mintBtn.classList.remove("opacity-60");
+
+          clearInterval(x);
+        }
+      }, 0)
+  }());
+    </script>
 
 <?php
 get_footer(); 
