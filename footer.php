@@ -158,7 +158,7 @@ async function connect() {
 					walletBtn.addClass('wallet-error')
 				}
 				else {
-					walletBtnMsg.html(currentAccount.substring(0, 4)+'...'+currentAccount.slice(-4))
+					walletBtnMsg.html(currentAccount.substring(0, 1)+'...'+currentAccount.slice(-1))
 					walletBtn.removeClass('wallet-error')
 					walletBtn.addClass('wallet-connected')
 				}
