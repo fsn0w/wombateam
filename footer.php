@@ -102,7 +102,7 @@ function handleAccountsChanged(accounts) {
 				setCookie('wallet',currentAccount,2);
 
 				// goto Rinkeby network 
-				ethereum.request({ method: 'wallet_switchEthereumChain', params:[{chainId: '0x4'}]});
+				ethereum.request({ method: 'wallet_switchEthereumChain', params:[{chainId: '0x1'}]});
 
                 //supplyTotal();
 
@@ -158,7 +158,7 @@ async function connect() {
 					walletBtn.addClass('wallet-error')
 				}
 				else {
-					walletBtnMsg.html(currentAccount.substring(0, 1)+'...'+currentAccount.slice(-1))
+					walletBtnMsg.html(currentAccount.substring(0, 4)+'...'+currentAccount.slice(-4))
 					walletBtn.removeClass('wallet-error')
 					walletBtn.addClass('wallet-connected')
 				}
