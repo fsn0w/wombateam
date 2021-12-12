@@ -4,6 +4,8 @@
  *
  */
 
+header('Content-Type: application/json');
+
 $path = "/var/www/html/";
 
 $after_reveal = false;
