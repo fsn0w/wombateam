@@ -199,7 +199,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 
             <!-- Slider -->
 
-            <div class="hidden mx-auto mt-20 lg:flex lg:flex-row">
+            <div class="hidden mx-auto mt-20 mb-10 lg:flex lg:flex-row">
                 <div class="swiper mySwiper">
                 <div class="swiper-wrapper"></div>
                 </div>
