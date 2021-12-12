@@ -24,7 +24,7 @@ get_header();
                 <input value="0.05" class="mint-price bg-transparent border-0 inline-block w-12 font-bold text-center text-lg lg:w-14 lg:text-2xl" disabled /> 
                 <span class="text-xs font-bold lg:text-sm">ETH</span></span> 
             <div class="text-center relative">
-                <button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 -ml-4 mr-2 opacity-60 lg:ml-0 lg:mr-6 lg:py-8 lg:px-16 lg:text-5xl">Mint</button>
+                <button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 -ml-4 mr-2 opacity-60 cursor-not-allowed lg:ml-0 lg:mr-6 lg:py-8 lg:px-16 lg:text-5xl">Mint</button>
                 <span id="countdown" class="absolute text-dark font-bold text-lg mt-4 lg:mt-7 lg:text-2xl">
                         <ul class="flex gap-1 lg:gap-3">
                             <li><div id="hours" class="text-xl p-1 lg:text-4xl bg-[#e0e3e6] rounded-lg"></div><span class="lg:hidden text-sm">H</span><span class="hidden lg:block uppercase text-sm">Hours</span></li>
@@ -99,6 +99,7 @@ get_header();
 
           countdown.style.display = "none";
           mintBtn.classList.remove("opacity-60");
+          mintBtn.classList.remove("cursor-not-allowed");
 
           clearInterval(x);
         }
