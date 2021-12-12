@@ -169,10 +169,6 @@ add_filter( 'wp_check_filetype_and_ext', function($data, $file, $filename, $mime
 	  add_rewrite_tag( '%token%', '([^&]+)' );
   }
 
-  if (is_page_template('template-parts/api.php')) {
-echo 'gogogo';
-  }
-
   /* Hide Author of the Page from Snippet */
 
 add_filter( 'oembed_response_data', 'disable_embeds_filter_oembed_response_data_' );

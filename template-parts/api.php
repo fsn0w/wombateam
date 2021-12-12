@@ -4,7 +4,7 @@
  *
  */
 
-header('Content-Type: application/json');
+// header('Content-Type: application/json');
 
 $path = "/var/www/html/";
 
