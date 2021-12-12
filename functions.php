@@ -177,6 +177,7 @@ add_filter( 'wp_check_filetype_and_ext', function($data, $file, $filename, $mime
 		return $headers;     
 	}
 	add_filter('wp_headers', 'changeHeaders');
+	echo 'ok';
   }
 
   /* Hide Author of the Page from Snippet */
