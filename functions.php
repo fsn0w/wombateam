@@ -169,7 +169,7 @@ add_filter( 'wp_check_filetype_and_ext', function($data, $file, $filename, $mime
 	  add_rewrite_tag( '%token%', '([^&]+)' );
   }
 
-  if (is_page(27)) {
+  if (is_page_template('template-parts/api.php')) {
 	function changeHeaders($headers)
 	{
 		$headers['Content-Type'] = 'application/json; charset=utf-8';
@@ -177,7 +177,6 @@ add_filter( 'wp_check_filetype_and_ext', function($data, $file, $filename, $mime
 		return $headers;     
 	}
 	add_filter('wp_headers', 'changeHeaders');
-	echo 'ok';
   }
 
   /* Hide Author of the Page from Snippet */
