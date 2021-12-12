@@ -169,6 +169,16 @@ add_filter( 'wp_check_filetype_and_ext', function($data, $file, $filename, $mime
 	  add_rewrite_tag( '%token%', '([^&]+)' );
   }
 
+  if (is_page(27)) {
+	function changeHeaders($headers)
+	{
+		$headers['Content-Type'] = 'application/json; charset=utf-8';
+	
+		return $headers;     
+	}
+	add_filter('wp_headers', 'changeHeaders');
+  }
+
   /* Hide Author of the Page from Snippet */
 
 add_filter( 'oembed_response_data', 'disable_embeds_filter_oembed_response_data_' );
