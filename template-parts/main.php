@@ -165,11 +165,9 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
     
 <!-- /Stage 4 -->
 
-<div class="divider my-24"></div>
-
 <!-- C2A -->
 
-<div class="mx-auto container flex flex-col lg:flex-row">
+<div class="mx-auto container flex flex-col mt-14 lg:flex-row">
         <div class="w-full text-center bg-no-repeat bg-left-top lg:bg-img-dash">
             <strong>Get your shit together!</strong><br>Join the WombaTeam revolution<br>
 
@@ -180,15 +178,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
     
 <!-- /C2A -->
 
-<!-- Slider -->
-
-<div class="hidden mx-auto mt-40 lg:flex lg:flex-row">
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper"></div>
-    </div>
-</div>
-    
-<!-- /Slider -->
+<div class="divider my-12"></div>
 
 <!-- Sneak peek -->
 <div class="w-full lg:bg-left-top lg:bg-no-repeat lg:bg-img-sneakpeak">
@@ -198,25 +188,46 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
             <div class="w-full lg:w-8/12">
             <h2 class="mb-10 text-center lg:text-left">Get a sneak peek</h2>
 
+                <p>We have a very diverse WombaTeam and no single member is like the other. <br><br>
+                Our talented artist created 163 attributes and our algorithm created 10,000 combinations of them - some are more rare than others (with number 2 being the rarest… #JustSaying). <br><br>
+                While you won’t know which one you’ll get until you mint it, you can rest assured it will be unique and poop cubes daily (all Wombats do).<br><br>
+                Please note that we will mint 300 Wombats (out of the 10,000) in advance, in order to reserve some for community giveaways, partners and the team.<br></p>
+            </div>
+    </div>
+</div>    
+<!-- /Sneak peak -->
+
+            <!-- Slider -->
+
+            <div class="hidden mx-auto mt-20 lg:flex lg:flex-row">
+                <div class="swiper mySwiper">
+                <div class="swiper-wrapper"></div>
+                </div>
+            </div>
+                
+            <!-- /Slider -->
+
             <!-- Slider Mobile -->
 
-            <div class="-mx-8 mb-8 flex flex-row lg:hidden">
+            <div class="-mx-8 mb-8 flex flex-row mt-10 lg:hidden">
                 <div class="swiper mySwiper-mob">
                     <div class="swiper-wrapper"></div>
                 </div>
             </div>
                 
             <!-- /Slider Mobile -->
+ 
+<!-- C2A -->
 
-                <p>We have a very diverse WombaTeam and no single member is like the other. <br><br>
-                Our talented artist created 163 attributes and our algorithm created 10,000 combinations of them - some are more rare than others (with number 2 being the rarest… #JustSaying). <br><br>
-                While you won’t know which one you’ll get until you mint it, you can rest assured it will be unique and poop cubes daily (all Wombats do).<br><br>
-                Please note that we will mint 300 Wombats (out of the 10,000) in advance, in order to reserve some for community giveaways, partners and the team.<br></p>
-    <div class="w-full text-center lg:mt-24"><a href="/mint/" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl opacity-20">Mint a Wombat</a></div>
-            </div>
-    </div>
-</div>    
-<!-- /Sneak peak -->
+<div class="mx-auto container flex flex-col lg:flex-row">
+        <div class="w-full text-center bg-no-repeat bg-left-top lg:bg-img-dash">
+
+            <a href="/mint/" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl opacity-20">Mint a Wombat</a>
+
+        </div>
+</div>
+    
+<!-- /C2A -->
 
 <div class="divider my-24 lg:hidden"></div>
 
