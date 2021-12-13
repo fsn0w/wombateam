@@ -25,7 +25,10 @@ get_header();
                                 <li><div id="seconds" class="text-xl p-1 lg:text-2xl bg-[#c8bdb4] rounded-lg w-14 tracking-widest -mb-2 lg:mb-0"></div><span class="text-[8px] lg:text-sm">seconds</span></li>
                             </ul>
                     </span>
-                    <p class="text-[#8A6A50] font-medium mt-2 lg:mt-4 text-xs lg:text-xl">Until the initial minting window will be closed!</p>
+                    <p id="mint-desc" class="text-[#8A6A50] font-medium mt-2 lg:mt-4 text-xs lg:text-xl">Until the initial minting window will be closed!</p>
+                    <p id="nomint-desc" class="hidden text-[#8A6A50] font-medium mt-2 lg:mt-4 text-xs lg:text-xl">Shit, hit, shit...The initial minting window has closed!<br>
+                    <span class="text-dark text-sm leading-3">
+Have a look at the WombaTeam collection on <a href="https://opensea.io/collection/wombateam" class=" border-b border-dark hover:text-dark" target="_blank">https://opensea.io/collection/wombateam</a> and stay tuned for the next minting window.</span></p>
                 </div>
             </div>
             <div class="w-full mx-auto text-center lg:w-3/5">
@@ -90,7 +93,16 @@ get_header();
         hour = minute * 60,
         day = hour * 24;
 
-  let start = "Dec 14, 2021 12:00:00",
+  let start = "<?php 
+  
+  if (isset($_GET['status']) && $_GET['status']=='end') {
+      echo "Dec 13, 2021 12:00:00";
+    } 
+  else {
+      echo "Dec 14, 2021 12:00:00";
+} 
+  
+  ?>",
       countDown = new Date(start ).getTime(),
       x = setInterval(function() {    
 
@@ -98,19 +110,26 @@ get_header();
            var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
             var distance = countDown - utc;
 
-          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
         if (distance < 0) {
           let countdown = document.getElementById("countdown"),
               mintBtn = document.getElementById("mintbtn");
 
-          countdown.style.display = "none";
-          mintBtn.classList.remove("opacity-60");
-          mintBtn.classList.remove("cursor-not-allowed");
+          /* countdown.style.display = "none"; */
+          mintBtn.classList.add("opacity-60");
+          mintBtn.classList.add("cursor-not-allowed");
+          document.getElementById("mint-desc").classList.add("hidden");
+          document.getElementById("nomint-desc").classList.remove("hidden");
+
+          document.getElementById("hours").innerText = "0",
+          document.getElementById("minutes").innerText = "0",
+          document.getElementById("seconds").innerText = "0";
 
           clearInterval(x);
+        }
+        else {
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
         }
       }, 0)
   }());
