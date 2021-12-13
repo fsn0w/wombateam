@@ -28,7 +28,7 @@ get_header();
                     <p id="mint-desc" class="text-[#8A6A50] font-medium mt-2 lg:mt-4 text-xs lg:text-xl">Until the initial minting window will be closed!</p>
                     <p id="nomint-desc" class="hidden text-[#8A6A50] font-medium mt-2 lg:mt-4 text-xs lg:text-xl">Shit, hit, shit...The initial minting window has closed!<br>
                     <span class="text-dark text-sm leading-3">
-Have a look at the WombaTeam collection on <a href="https://opensea.io/collection/wombateam" class=" border-b border-dark hover:text-dark" target="_blank">https://opensea.io/collection/wombateam</a> and stay tuned for the next minting window.</span></p>
+Have a look at the WombaTeam collection on <a href="https://opensea.io/collection/wombateam" class="hidden border-b border-dark hover:text-dark lg:inline" target="_blank">https://opensea.io/collection/wombateam</a> <a href="https://opensea.io/collection/wombateam" class="border-b border-dark hover:text-dark lg:hidden" target="_blank">https://opensea.io/...</a> and stay tuned for the next minting window.</span></p>
                 </div>
             </div>
             <div class="w-full mx-auto text-center lg:w-3/5">
