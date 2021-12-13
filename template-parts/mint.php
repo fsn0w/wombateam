@@ -19,10 +19,10 @@ get_header();
                     <h5 class="text-[#8A6A50] text-xl font-comet drop-shadow lg:text-4xl">Get Your Shit Together!</h5>
                     <span class="text-bgfooter text-xs font-medium block mt-2 mb-2 lg:text-xl">Only</span>
                     <span id="countdown" class="mx-auto text-bgfooter font-medium text-lg mt-4 lg:mt-7 lg:text-2xl">
-                            <ul class="flex justify-center gap-3 opacity-50">
-                                <li><div id="hours" class="text-xl p-1 lg:text-2xl bg-circle rounded-lg w-14 tracking-widest -mb-2 lg:mb-0"></div><span class="text-[8px] lg:text-sm">hours</span></li>
-                                <li><div id="minutes" class="text-xl p-1 lg:text-2xl bg-circle rounded-lg w-14 tracking-widest -mb-2 lg:mb-0"></div><span class="text-[8px] lg:text-sm">minutes</span></li>
-                                <li><div id="seconds" class="text-xl p-1 lg:text-2xl bg-circle rounded-lg w-14 tracking-widest -mb-2 lg:mb-0"></div><span class="text-[8px] lg:text-sm">seconds</span></li>
+                            <ul class="flex justify-center gap-3">
+                                <li><div id="hours" class="text-xl p-1 lg:text-2xl bg-[#c8bdb4] rounded-lg w-14 tracking-widest -mb-2 lg:mb-0"></div><span class="text-[8px] lg:text-sm">hours</span></li>
+                                <li><div id="minutes" class="text-xl p-1 lg:text-2xl bg-[#c8bdb4] rounded-lg w-14 tracking-widest -mb-2 lg:mb-0"></div><span class="text-[8px] lg:text-sm">minutes</span></li>
+                                <li><div id="seconds" class="text-xl p-1 lg:text-2xl bg-[#c8bdb4] rounded-lg w-14 tracking-widest -mb-2 lg:mb-0"></div><span class="text-[8px] lg:text-sm">seconds</span></li>
                             </ul>
                     </span>
                     <p class="text-[#8A6A50] font-medium mt-2 lg:mt-4 text-xs lg:text-xl">Until the initial minting window will be closed!</p>
