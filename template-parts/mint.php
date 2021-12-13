@@ -25,15 +25,6 @@ get_header();
                 <span class="text-xs font-bold lg:text-sm">ETH</span></span> 
             <div class="text-center relative">
                 <button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 -ml-4 mr-2 lg:ml-0 lg:mr-6 lg:py-8 lg:px-16 lg:text-5xl">Mint</button>
-<!--
-                <span id="countdown" class="absolute text-dark font-bold text-lg mt-4 lg:mt-7 lg:text-2xl">
-                        <ul class="flex gap-1 lg:gap-3">
-                            <li><div id="hours" class="text-xl p-1 lg:text-4xl bg-[#e0e3e6] rounded-lg"></div><span class="lg:hidden text-sm">H</span><span class="hidden lg:block uppercase text-sm">Hours</span></li>
-                            <li><div id="minutes" class="text-xl p-1 lg:text-4xl bg-[#e0e3e6] rounded-lg"></div><span class="lg:hidden text-sm">M</span><span class="hidden lg:block uppercase text-sm">Minutes</span></li>
-                            <li><div id="seconds" class="text-xl p-1 lg:text-4xl bg-[#e0e3e6] rounded-lg w-10 lg:w-auto"></div><span class="lg:hidden text-sm">S</span><span class="hidden lg:block uppercase text-sm">Seconds</span></li>
-                        </ul>
-                </span>
--->
             </div>
         </div>
 
@@ -76,38 +67,6 @@ get_header();
 
 </div>
 
-    <script>
-(function () {
-  const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
-        day = hour * 24;
-
-  let start = "Dec 13, 2021 12:00:00",
-      countDown = new Date(start ).getTime(),
-      x = setInterval(function() {    
-
-        var d = new Date();
-           var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-            var distance = countDown - utc;
-
-          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-        if (distance < 0) {
-          let countdown = document.getElementById("countdown"),
-              mintBtn = document.getElementById("mintbtn");
-
-          countdown.style.display = "none";
-          mintBtn.classList.remove("opacity-60");
-          mintBtn.classList.remove("cursor-not-allowed");
-
-          clearInterval(x);
-        }
-      }, 0)
-  }());
-    </script>
 
 <?php
 get_footer(); 
