@@ -15,7 +15,7 @@ get_header();
         <div class="container mx-auto flex-row -mb-32 relative z-20 lg:flex lg:mb-[-17rem]">
             <div class="mb-4"><h1 class="text-center lg:hidden"><span class="text-dark">Mint Your Wombats</span></h1></div>
             <div class="mx-auto w-full text-center max-w-sm lg:mx-0 lg:w-2/5">
-                <div class=" text-xl rounded-lg bg-[#F7F0E820] p-4">
+                <div class=" text-xl rounded-lg bg-[#e9f0f766] p-4">
                     <h5 class="text-[#8A6A50] text-xl font-comet drop-shadow lg:text-4xl">Get Your Shit Together!</h5>
                     <span class="text-bgfooter text-xs font-medium block mt-2 mb-2 lg:text-xl">Only</span>
                     <span id="countdown" class="mx-auto text-bgfooter font-medium text-lg mt-4 lg:mt-7 lg:text-2xl">
