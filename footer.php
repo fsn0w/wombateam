@@ -18,7 +18,7 @@
 				<a href="https://t.me/WombaTeam" target="_blank" class="icon-tg w-10 h-10 brightness-125 border-b-0 hover:brightness-100 lg:w-20 lg:h-20 "></a>
 				<a href="https://discord.gg/vj7RmZeBnp" target="_blank" class="icon-ds w-10 h-10 brightness-125 border-b-0 hover:brightness-100 lg:w-20 lg:h-20"></a>
 			</div>
-			<div class="text-center mb-8"><a href="https://rinkeby.etherscan.io/address/0x74bc0b16e51f8b53f914c41f82adeeac6219fb12" class="border-text text-sm lg:text-base" target="_blank">Verified Smart Contract</a></div>
+			<div class="text-center mb-8"><a href="https://etherscan.io/address/0xb82A72453403f350E14B8bF7dcc6FBD045Cc0d3C" class="border-text text-sm lg:text-base" target="_blank">Verified Smart Contract</a></div>
 			@<?php echo date_i18n( 'Y' );?> - All rights reserved to WombaTeam
 		</div>
 	</div>
