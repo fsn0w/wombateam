@@ -12,19 +12,35 @@ get_header();
 <!-- Mint -->
 
     <div class="w-full pt-28 bg-bgmenu lg:pt-44">
-
-        <div class="mx-auto container text-center -mb-32 relative z-20 lg:mb-[-17rem]">
-            <h1 class="text-center"><span class="text-dark">Mint Your Wombats</span></h1>
-            <div class="whitespace-nowrap text-dark text-3xl text-center flex flex-row justify-center items-center my-4 lg:text-5xl">
-                <button class="minus border-[3px] border-dark rounded-lg w-8 h-8 font-light leading-[1px] mt-2 mx-4 lg:mt-4 lg:mx-8 lg:w-12 lg:h-12">&#8211;</button>
-                    <span><input value="1" id="mint_n" class="mint-number bg-transparent border-0 inline-block w-8 font-bold text-5xl text-center lg:w-12 lg:text-7xl" disabled />/5</span>
-                <button class="plus border-[3px] border-dark rounded-lg w-8 h-8 font-light leading-[1px] mt-2 mx-4 lg:mt-4 lg:mx-8 lg:w-12 lg:h-12">&#43;</button>
+        <div class="container mx-auto flex-row -mb-32 relative z-20 lg:flex lg:mb-[-17rem]">
+            <div class="mb-4"><h1 class="text-center lg:hidden"><span class="text-dark">Mint Your Wombats</span></h1></div>
+            <div class="mx-auto w-full text-center max-w-sm lg:mx-0 lg:w-2/5">
+                <div class=" text-xl rounded-lg bg-[#F7F0E820] p-4">
+                    <h5 class="text-[#8A6A50] text-xl font-comet drop-shadow lg:text-4xl">Get Your Shit Together!</h5>
+                    <span class="text-bgfooter text-xs font-medium block mt-2 mb-2 lg:text-xl">Only</span>
+                    <span id="countdown" class="mx-auto text-bgfooter font-medium text-lg mt-4 lg:mt-7 lg:text-2xl">
+                            <ul class="flex justify-center gap-3">
+                                <li><div id="hours" class="text-xl p-1 lg:text-2xl bg-circle rounded-lg w-14 tracking-widest -mb-2 lg:mb-0"></div><span class="text-[8px] lg:text-sm">hours</span></li>
+                                <li><div id="minutes" class="text-xl p-1 lg:text-2xl bg-circle rounded-lg w-14 tracking-widest -mb-2 lg:mb-0"></div><span class="text-[8px] lg:text-sm">minutes</span></li>
+                                <li><div id="seconds" class="text-xl p-1 lg:text-2xl bg-circle rounded-lg w-14 tracking-widest -mb-2 lg:mb-0"></div><span class="text-[8px] lg:text-sm">seconds</span></li>
+                            </ul>
+                    </span>
+                    <p class="text-[#8A6A50] font-medium mt-2 lg:mt-4 text-xs lg:text-xl">Until the initial minting window will be closed!</p>
+                </div>
             </div>
-            <span class="text-[#37271B] text-lg lg:text-2xl">Price: 
-                <input value="0.05" class="mint-price bg-transparent border-0 inline-block w-12 font-bold text-center text-lg lg:w-14 lg:text-2xl" disabled /> 
-                <span class="text-xs font-bold lg:text-sm">ETH</span></span> 
-            <div class="text-center relative">
-                <button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 -ml-4 mr-2 lg:ml-0 lg:mr-6 lg:py-8 lg:px-16 lg:text-5xl">Mint</button>
+            <div class="w-full mx-auto text-center lg:w-3/5">
+                <h1 class="hidden text-center lg:block"><span class="text-dark">Mint Your Wombats</span></h1>
+                <div class="whitespace-nowrap text-dark text-3xl text-center flex flex-row justify-center items-center my-4 lg:text-5xl">
+                    <button class="minus border-[3px] border-dark rounded-lg w-8 h-8 font-light leading-[1px] mt-2 mx-4 lg:mt-4 lg:mx-8 lg:w-12 lg:h-12">&#8211;</button>
+                        <span><input value="1" id="mint_n" class="mint-number bg-transparent border-0 inline-block w-8 font-bold text-5xl text-center lg:w-12 lg:text-7xl" disabled />/5</span>
+                    <button class="plus border-[3px] border-dark rounded-lg w-8 h-8 font-light leading-[1px] mt-2 mx-4 lg:mt-4 lg:mx-8 lg:w-12 lg:h-12">&#43;</button>
+                </div>
+                <span class="text-[#37271B] text-lg lg:text-2xl">Price: 
+                    <input value="0.05" class="mint-price bg-transparent border-0 inline-block w-12 font-bold text-center text-lg lg:w-14 lg:text-2xl" disabled /> 
+                    <span class="text-xs font-bold lg:text-sm">ETH</span></span> 
+                <div class="text-center relative">
+                    <button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 lg:py-8 lg:px-16 lg:text-5xl">Mint</button>
+                </div>
             </div>
         </div>
 
@@ -67,6 +83,38 @@ get_header();
 
 </div>
 
+    <script>
+(function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  let start = "Dec 14, 2021 12:00:00",
+      countDown = new Date(start ).getTime(),
+      x = setInterval(function() {    
+
+        var d = new Date();
+           var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+            var distance = countDown - utc;
+
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        if (distance < 0) {
+          let countdown = document.getElementById("countdown"),
+              mintBtn = document.getElementById("mintbtn");
+
+          countdown.style.display = "none";
+          mintBtn.classList.remove("opacity-60");
+          mintBtn.classList.remove("cursor-not-allowed");
+
+          clearInterval(x);
+        }
+      }, 0)
+  }());
+    </script>
 
 <?php
 get_footer(); 
