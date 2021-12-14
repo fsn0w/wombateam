@@ -42,7 +42,7 @@ Have a look at the WombaTeam collection on <a href="https://opensea.io/collectio
                     <input value="0.05" class="mint-price bg-transparent border-0 inline-block w-12 font-bold text-center text-lg lg:w-14 lg:text-2xl" disabled /> 
                     <span class="text-xs font-bold lg:text-sm">ETH</span></span> 
                 <div class="text-center relative">
-                    <button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 lg:py-8 lg:px-16 lg:text-5xl">Mint</button>
+                    <button id="mintbtn" class="btn2 text-xl mt-2 py-4 px-10 lg:py-8 lg:px-16 lg:text-5xl" disabled>Mint</button>
                 </div>
             </div>
         </div>
