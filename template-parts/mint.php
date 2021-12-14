@@ -32,7 +32,7 @@ Have a look at the WombaTeam collection on <a href="https://opensea.io/collectio
                 </div>
             </div>
             <div class="w-full mx-auto text-center lg:w-3/5">
-                <h1 class="hidden text-center lg:block"><span class="text-dark">Mint Your Wombats</span></h1>
+                <h1 class="hidden text-center lg:block"><span class="text-dark">Mint Your Wombats</span></h1> 
                 <div class="whitespace-nowrap text-dark text-3xl text-center flex flex-row justify-center items-center my-4 lg:text-5xl">
                     <button class="minus border-[3px] border-dark rounded-lg w-8 h-8 font-light leading-[1px] mt-2 mx-4 lg:mt-4 lg:mx-8 lg:w-12 lg:h-12">&#8211;</button>
                         <span><input value="1" id="mint_n" class="mint-number bg-transparent border-0 inline-block w-8 font-bold text-5xl text-center lg:w-12 lg:text-7xl" disabled />/5</span>
