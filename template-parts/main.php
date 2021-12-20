@@ -90,7 +90,7 @@ You've probably noticed it by now, but we love wombats. <strong>That’s why we 
             </p>
             <div class="mt-16 text-center bg-no-repeat bg-right-top lg:bg-img-10 lg:mx-0 lg:text-left">
                 <a href="/mint/" class="btn1 mt-2 py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">Mint a Wombat</a>
-                <p class="mt-8 text-center lg:text-left lg:text-3xl">Launch date will be announced on our <a href="https://t.me/WombaTeam" target="_blank">Telegram</a> & <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord</a> channels</p>
+                <p class="mt-8 text-center lg:text-left lg:text-3xl">Next minting window will be announced on our <a href="https://t.me/WombaTeam" target="_blank">Telegram</a> & <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord</a> channels</p>
             </div>
         </div>
 </div>
@@ -191,7 +191,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
                 <p>We have a very diverse WombaTeam and no single member is like the other. <br><br>
                 Our talented artist created 163 attributes and our algorithm created 10,000 combinations of them - some are more rare than others (with number 2 being the rarest… #JustSaying). <br><br>
                 While you won’t know which one you’ll get until you mint it, you can rest assured it will be unique and poop cubes daily (all Wombats do).<br><br>
-                Please note that we will mint 300 Wombats (out of the 10,000) in advance, in order to reserve some for community giveaways, partners and the team.<br></p>
+                Please note that 775 wombats (out of the 10,000) were already minted in the initial minting window and the next minting event will be announced on our social channels.<br></p>
             </div>
     </div>
 </div>    
@@ -222,7 +222,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 <div class="mx-auto container flex flex-col lg:flex-row">
         <div class="w-full text-center bg-no-repeat bg-left-top lg:bg-img-dash">
 
-            <a href="/mint/" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl">Mint a Wombat</a>
+            <a href="https://opensea.io/collection/wombateam" target="_blank" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl">View the minted collection</a>
 
         </div>
 </div>

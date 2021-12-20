@@ -58,7 +58,26 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                 <div class="accordion-item">
                 <button aria-expanded="false"><span class="accordion-title">OK, sounds cool, where do I start?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>You can join our Discord Channel and keep an eye on our launch date announcement.</p>
+                        <p>You can join our Discord Channel and keep an eye on our next minting window date announcement.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                <button aria-expanded="false"><span class="accordion-title">Where can I see the minted wombats?</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>You can view the minted part of the collection on <a href="https://opensea.io/collection/wombateam" target="_blank">OpeanSea</a></p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                <button aria-expanded="false"><span class="accordion-title">Where do I see my wombat's rarity?</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>You can't yet see the explicit rarity yet. (this will be enabled via one of the 3rd party rarity analyzers after all the wombats are minted).</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                <button aria-expanded="false"><span class="accordion-title">What does my wombat's "poopablity" level means?</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>The more rare your wombat is - the more WPOO tokens he will poop daily (once we hit the P-Day).<br> 
+                        Poopability trait will give you a sense of your wombat's metabolism!  The scale goes from 41 (slower bowel movements) to 80 (full of shit!).</p>
                     </div>
                 </div>
             </div>
