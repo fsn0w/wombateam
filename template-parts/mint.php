@@ -33,7 +33,9 @@ Have a look at the WombaTeam collection on <a href="https://opensea.io/collectio
                 </div>
             </div>
 -->
-            <div class="w-full mx-auto text-center opacity-20">
+            <div class="w-full mx-auto text-center opacity-20 relative">
+                <div class="bg-[#F7F0E8] w-96 p-3 text-center text-[#8A6A50] font-medium text-xl rounded-md absolute ">The initial minting window is over now.<br>
+You can view the minted collection on <a href="https://opensea.io/collection/wombateam" target="_blank">OpeanSea</a> and follow us on <a href="https://t.me/WombaTeam" target="_blank">Telegram</a> / <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord</a> where we will be announcing the next minting window.</div>
                 <h1 class="hidden text-center lg:block"><span class="text-dark">Mint Your Wombats</span></h1> 
                 <div class="whitespace-nowrap text-dark text-3xl text-center flex flex-row justify-center items-center my-4 lg:text-5xl">
                     <button class="minus border-[3px] border-dark rounded-lg w-8 h-8 font-light leading-[1px] mt-2 mx-4 lg:mt-4 lg:mx-8 lg:w-12 lg:h-12">&#8211;</button>
