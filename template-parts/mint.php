@@ -14,8 +14,10 @@ get_header();
     <div class="w-full pt-28 bg-bgmenu lg:pt-44">
         <div class="container mx-auto flex-row -mb-32 relative z-20 lg:flex lg:mb-[-17rem]">
             <div class="absolute z-30 w-full">
-                <div class="bg-[#F7F0E8] w-96 p-3 text-center text-[#8A6A50] font-medium text-xl rounded-md mx-auto">The initial minting window is over now.<br>
-        You can view the minted collection on <a href="https://opensea.io/collection/wombateam" target="_blank" class="border-0">OpeanSea</a> and follow us on <a href="https://t.me/WombaTeam" target="_blank">Telegram</a> / <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord</a> where we will be announcing the next minting window.</div> 
+
+                <div class="bg-[#F7F0E8] p-3 text-center text-[#8A6A50] font-medium text-xl rounded-md mx-auto max-w-md mt-24">The initial minting window is over now.<br>
+        You can view the minted collection on <a href="https://opensea.io/collection/wombateam" target="_blank" class="border-0">OpeanSea</a> and follow us on <a href="https://t.me/WombaTeam" target="_blank" class="border-0">Telegram</a> / <a href="https://discord.gg/vj7RmZeBnp" target="_blank" class="border-0">Discord</a> where we will be announcing the next minting window.</div> 
+
             </div>
             <div class="mb-4 opacity-20"><h1 class="text-center lg:hidden"><span class="text-dark">Mint Your Wombats</span></h1></div>
 <!--
