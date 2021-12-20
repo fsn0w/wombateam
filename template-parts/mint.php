@@ -14,6 +14,7 @@ get_header();
     <div class="w-full pt-28 bg-bgmenu lg:pt-44">
         <div class="container mx-auto flex-row -mb-32 relative z-20 lg:flex lg:mb-[-17rem]">
             <div class="mb-4"><h1 class="text-center lg:hidden"><span class="text-dark">Mint Your Wombats</span></h1></div>
+<!--
             <div class="mx-auto w-full text-center max-w-sm lg:mx-0 lg:w-2/5">
                 <div class=" text-xl rounded-lg bg-[#e9f0f766] p-4">
                     <h5 class="text-[#8A6A50] text-xl font-comet drop-shadow lg:text-4xl">Get Your Shit Together!</h5>
@@ -31,7 +32,8 @@ get_header();
 Have a look at the WombaTeam collection on <a href="https://opensea.io/collection/wombateam" class="border-b border-dark hover:text-dark" target="_blank">opensea.io</a> and stay tuned for the next minting window.</span></p>
                 </div>
             </div>
-            <div class="w-full mx-auto text-center lg:w-3/5">
+-->
+            <div class="w-full mx-auto text-center opacity-20">
                 <h1 class="hidden text-center lg:block"><span class="text-dark">Mint Your Wombats</span></h1> 
                 <div class="whitespace-nowrap text-dark text-3xl text-center flex flex-row justify-center items-center my-4 lg:text-5xl">
                     <button class="minus border-[3px] border-dark rounded-lg w-8 h-8 font-light leading-[1px] mt-2 mx-4 lg:mt-4 lg:mx-8 lg:w-12 lg:h-12">&#8211;</button>
@@ -85,7 +87,7 @@ Have a look at the WombaTeam collection on <a href="https://opensea.io/collectio
     </div>
 
 </div>
-
+<!--
     <script>
 (function () {
   const second = 1000,
@@ -134,6 +136,7 @@ Have a look at the WombaTeam collection on <a href="https://opensea.io/collectio
       }, 0)
   }());
     </script>
+-->
 
 <?php
 get_footer(); 
