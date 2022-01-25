@@ -4,6 +4,7 @@
     --color-menu: #997B5F;
     --color-text: #DBC7B4;
     --color-bg: #37271B;
+    --color-brown: #675446;
   }
 
 /* Fonts */
@@ -11,7 +12,7 @@
 @font-face{
     font-family:"Little Comet";
     src:url("../css/fonts/Little_Comet.woff2") format("woff2"),url("../css/fonts/Little_Comet.woff") format("woff");
-    font-weight: normal;  
+    font-weight: normal;
 }
 
 @font-face{

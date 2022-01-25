@@ -55,6 +55,11 @@
           "name": "Circles",
           "slug": "circle",
           "color": "#BFA084"
+        },
+        {
+          "name": "Light brown",
+          "slug": "light-brown",
+          "color": "#997960"
         }
       ]
     },
