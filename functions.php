@@ -40,7 +40,7 @@ add_action( 'after_setup_theme', 'tailpress_setup' );
  */
 
 add_action( 'init', 'true_jquery_register' );
- 
+
 function true_jquery_register() {
 	if ( !is_admin() ) {
 		wp_deregister_script( 'jquery' );
@@ -55,7 +55,7 @@ function true_jquery_register() {
 function tailpress_enqueue_scripts() {
 	$theme = wp_get_theme();
 
-	wp_enqueue_style( 'tailpress', tailpress_asset( 'css/app.css' ), array(),'0.133' );
+	wp_enqueue_style( 'tailpress', tailpress_asset( 'css/app.css' ), array(),'0.143' );
 	wp_enqueue_script( 'tailpress', tailpress_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
 	if (is_page_template('template-parts/main.php')) { wp_enqueue_script( 'main', get_template_directory_uri() . '/js/animation.js', array('jquery'), '0.36' ); }
 }
@@ -130,23 +130,23 @@ add_filter( 'wp_check_filetype_and_ext', function($data, $file, $filename, $mime
 	if ( $wp_version !== '4.7.1' ) {
 	   return $data;
 	}
-  
+
 	$filetype = wp_check_filetype( $filename, $mimes );
-  
+
 	return [
 		'ext'             => $filetype['ext'],
 		'type'            => $filetype['type'],
 		'proper_filename' => $data['proper_filename']
 	];
-  
+
   }, 10, 4 );
-  
+
   function cc_mime_types( $mimes ){
 	$mimes['svg'] = 'image/svg+xml';
 	return $mimes;
   }
   add_filter( 'upload_mimes', 'cc_mime_types' );
-  
+
   function fix_svg() {
 	echo '<style type="text/css">
 		  .attachment-266x266, .thumbnail img {

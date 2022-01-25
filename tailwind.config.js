@@ -43,17 +43,18 @@ module.exports = {
                 'img-10': "url('../assets/img/bg/10.png')",
                 'img-11': "url('../assets/img/bg/11.png')",
                 'img-12': "url('../assets/img/bg/12.png')",
+                'img-poos': "url('../assets/img/bg/poos.png')"
             },
         },
         fontFamily: {
             sans: ["Gotham", "sans-serif"],
-            comet: ["Little Comet", "sans-serif"] 
+            comet: ["Little Comet", "sans-serif"]
         },
         screens: {
             'sm': '640px',
             'md': '768px',
             'lg': '1024px',
-            'xl': '1280px' 
+            'xl': '1280px'
         }
     },
     plugins: [
