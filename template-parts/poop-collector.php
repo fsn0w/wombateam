@@ -156,9 +156,9 @@ get_header();
         </div>
 
         <picture>
-            <source srcset="<?=get_stylesheet_directory_uri()?>/assets/img/poo-collector/chart-desktop.png"
+            <source srcset="<?=get_stylesheet_directory_uri()?>/assets/img/poo-collector/chart-image-web.png"
                 media="(min-width: 640px)">
-            <img class="w-full md:w-4/5 ml-auto mr-auto" src="<?=get_stylesheet_directory_uri()?>/assets/img/poo-collector/chart-mobile.png">
+            <img class="w-full md:w-4/5 ml-auto mr-auto" src="<?=get_stylesheet_directory_uri()?>/assets/img/poo-collector/chart-image-mobile.png">
         </picture>
         <div class="text-center mt-12 lg:mt-20">
            <a href="#" target="_blank" class="btn1 w-full md:w-auto py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">launch the wpoo collector app</a>

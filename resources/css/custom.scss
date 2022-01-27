@@ -298,3 +298,15 @@
 
         }
       }
+
+      .dapp {
+        a {
+          display: flex;
+        }
+
+        svg:hover {
+          path {
+            fill: var(--color-secondary)
+          }
+        }
+      }
