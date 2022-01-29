@@ -302,11 +302,11 @@
       .dapp {
         a {
           display: flex;
-        }
 
-        svg:hover {
-          path {
-            fill: var(--color-secondary)
+          &:hover {
+            svg path {
+              fill: var(--color-secondary)
+            }
           }
         }
       }
