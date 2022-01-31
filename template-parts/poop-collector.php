@@ -20,7 +20,7 @@ get_header();
                 Collect your wombat’s WPOO (tokens) and help make their burrows a cleaner, better smelling space.
             </p>
             <div class="text-center lg:text-left mt-5 lg:mt-10">
-                <a href="#" target="_blank" class="btn1 py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl">launch the wpoo collector app</a>
+                <a href="https://wpoo.wombat.team/" target="_blank" class="btn1 py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl">launch the wpoo collector app</a>
             </div>
         </div>
     </div>
@@ -161,7 +161,7 @@ get_header();
             <img class="w-full md:w-4/5 ml-auto mr-auto" src="<?=get_stylesheet_directory_uri()?>/assets/img/poo-collector/chart-image-mobile.png">
         </picture>
         <div class="text-center mt-12 lg:mt-20">
-           <a href="#" target="_blank" class="btn1 w-full md:w-auto py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">launch the wpoo collector app</a>
+           <a href="https://wpoo.wombat.team/" target="_blank" class="btn1 w-full md:w-auto py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">launch the wpoo collector app</a>
         </div>
     </div>
 <!-- /Fine prints -->
