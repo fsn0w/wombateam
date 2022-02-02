@@ -301,7 +301,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
         <div class="flex flex-col gap-10 mb-10 lg:mb-16 lg:flex-row">
             <div class="w-full text-center px-2 lg:w-1/3">
                 <div class="svg-circle"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/tl-dr/tree.svg" alt=""></div>
-                <p>WPOO tokens can then be used for farming<br>(cooming soon)</p>
+                <p>WPOO tokens can then be used for farming<br>(coming soon)</p>
             </div>
             <div class="w-full text-center px-2 lg:w-1/3">
                 <div class="svg-circle"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/tl-dr/wombat.svg" alt=""></div>
