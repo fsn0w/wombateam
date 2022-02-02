@@ -25,8 +25,8 @@ get_header();
                 <div class="accordion-item border-t">
                 <button aria-expanded="false"><span class="accordion-title">What is the WombaTeam?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>The WombaTeam are a group of 10,000 unique collectible Wombat NFTs that are hand-drawn by our in-house artist and they are full of shit. 
-Wait a minute! Did we just write shit? Holly crap, we did. 
+                        <p>The WombaTeam are a group of 10,000 unique collectible Wombat NFTs that are hand-drawn by our in-house artist and they are full of shit.
+Wait a minute! Did we just write shit? Holly crap, we did.
 Why? because they give a shit! Literally.
 Each Wombat can poop a number of turds according to its rarity, and we have big plans on turning these pooping machines into an impactful, community-driven financial system (see stage 3).</p>
                     </div>
@@ -76,7 +76,7 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                 <div class="accordion-item">
                 <button aria-expanded="false"><span class="accordion-title">What does my wombat's "poopablity" level means?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>The more rare your wombat is - the more WPOO tokens he will poop daily (once we hit the P-Day).<br> 
+                        <p>The more rare your wombat is - the more WPOO tokens he will poop daily.<br>
                         Poopability trait will give you a sense of your wombat's metabolism!  The scale goes from 41 (slower bowel movements) to 80 (full of shit!).</p>
                     </div>
                 </div>
@@ -86,12 +86,12 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
 <!-- Stage 2 -->
 
         <div class="mt-12 lg:mt-20">
-            <h4>Stage 2 (Wpoo tokens generation) Questions</h4>
+            <h4>Stage 2 (WPOO tokens generation) Questions</h4>
             <div class="accordion mt-5 lg:mt-10">
                 <div class="accordion-item border-t">
                 <button aria-expanded="false"><span class="accordion-title">Ok I’m confused, what does poop have to do with wombats and tokens?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>We’re glad you asked. These lovely marsupial creatures poop up to 80 cubes per day (yes - they drop that many cube-shaped turds each day. Magical, isn’t it?). We feel it would be a waste not to use this unique piece of information for something good, so we wrapped their poo into tokens (WPOO). Once we hit the P-Day (the exact timing of which is kept secret and will be shared with our allies over encrypted channels), your Wombat will start pooping WPOO tokens and trust us, it’s going to be an absolute shitshow.</p>
+                        <p>We’re glad you asked. These lovely marsupial creatures poop up to 80 cubes per day (yes - they drop that many cube-shaped turds each day. Magical, isn’t it?). We feel it would be a waste not to use this unique piece of information for something good, so we wrapped their poo into tokens (WPOO). That means your wombat produces WPOO every single day at 12UTC (provided you are following the <a href="<?=get_site_url()?>/the-poo-collector" target="_blank">collection rules</a>).</p>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -101,15 +101,11 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                     </div>
                 </div>
                 <div class="accordion-item">
-                <button aria-expanded="false"><span class="accordion-title">When will this start?</span><span class="icon" aria-hidden="true"></span></button>
-                    <div class="accordion-content">
-                        <p>Once we hit the P-Day (the exact timing of which is kept secret and will be shared with our allies over encrypted channels)</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
                 <button aria-expanded="false"><span class="accordion-title">How do I collect my tokens? How do I know I have tokens?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>Well, this is where things get really smelly and you’ll actually have to check this shit out. Note that the Wombats (like most of us) don’t like to be surrounded by too much shit, so the WHO (Wombat Health Organization) guidelines are to collect WPOO at least once per week, as afterwards the Wombats will start feeling a bit overwhelmed by all this shit around them and their pooping capacity will reduce by 10% daily. If you’ll neglect your WPOO collecting duties for the whole 2 weeks - your Wombat will get so stressed - it’ll completely stop pooping. Beyond this point, nature will come to their help as the feces will start degrading daily up to the point where after further 2 weeks - there will be no more WPOO left in the burrow. At this point, the only way to get your wombat to start pooping again - will be to thoroughly clean their burrow (claim/unstake) and hope they won’t hold a grudge against you for too long and will get back to the (stinky) business sooner rather than later.</p>
+                        <p>You can use the <a href="https://wpoo.wombat.team/" target="_blank">WPOO Collecting DAPP</a> to view your WPOO balance and collect it.<br>
+
+                        This is where things get really smelly and you’ll actually have to check this shit out. Note that the Wombats (like most of us) don’t like to be surrounded by too much shit, so the WHO (Wombat Health Organization) guidelines are to collect WPOO at least once per week, as afterwards the Wombats will start feeling a bit overwhelmed by all this shit around them and their pooping capacity will reduce by 10% daily. If you’ll neglect your WPOO collecting duties for the whole 2 weeks - your Wombat will get so stressed - it’ll completely stop pooping. Beyond this point, nature will come to their help as the feces will start degrading daily up to the point where after further 2 weeks - there will be no more WPOO left in the burrow. At this point, the only way to get your wombat to start pooping again - will be to thoroughly clean their burrow (claim/unstake) and hope they won’t hold a grudge against you for too long and will get back to the (stinky) business sooner rather than later.</p>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -124,6 +120,44 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                         <p>Good question. You can save, trade or put them in a (compostable) bag and throw them in the bin, BUT you can also use them to participate in the Wombat DAO activity by taking part in farming activities (see stage 3).</p>
                     </div>
                 </div>
+                <div class="accordion-item">
+                <button aria-expanded="false"><span class="accordion-title">How do I add Polygon to my Metamask wallet? </span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>It’s very easy.<br><br>1.Click on the "add a network" button on your Metamask wallet networks list:</p>
+                        <img src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2.png" />
+                        <p>2. Fill in the following details:</p>
+                        <ul>
+                            <li>Network name: Polygon Mainnet</li>
+                            <li>New RPC URL: https://polygon-rpc.com</li>
+                            <li>ChainId: 137</li>
+                        </ul>
+                        <img src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_2.png" />
+                        <p>Done!<br>If you have any problems feel free to ask on our <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord channel</a>.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                <button aria-expanded="false"><span class="accordion-title">Do I need to have MATIC tokens to collect my WPOO tokens? </span><span class="icon" aria-hidden="true"></span></button>
+                   <div class="accordion-content">
+                    <p>Yes, MATIC is the Polygon network's native cryptocurrency and is used to pay for gas on transactions. You would need to pay the gas fees on each WPOO collection transaction.</p>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <button aria-expanded="false"><span class="accordion-title">How can I see the WPOO tokens on my Metamask? </span><span class="icon" aria-hidden="true"></span></button>
+                  <div class="accordion-content">
+                     <p>In order to see your WPOO balance in your wallet you would have to set up the WPOO token in your Metamask:<br><br>1. Click on "import tokens"</p>
+                     <img src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_3.png" />
+                     <p>2. Fill in the following details:</p>
+                     <ul>
+                       <li>Token Contract Address: 0x557E6bf1442E47Edd7cc61d231257362e8f662d9</li>
+                       <li>Token Symbol: WPOO</li>
+                       <li>Token Decimal: 18</li>
+                     </ul>
+                     <img src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_4.png" />
+                     <p>Done!<br>If you have any problems feel free to ask on our <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord channel</a>.</p>
+                  </div>
+                </div>
+
             </div>
         </div>
 
@@ -183,6 +217,14 @@ In our case - staking your WPOO tokens (which basically means locking them in a 
                         <p>Yes, we will mint 300 Wombats (out of the 10,000) in advance, in order to reserve some for community giveaways, partners and the team.</p>
                     </div>
                 </div>
+                <div class="accordion-item">
+                <button aria-expanded="false"><span class="accordion-title">When will the DAO be active? </span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>We are currently working on developing the farming and DAO functionality. Follow us on our <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord</a>, <a href="https://twitter.com/WombaTeam" target="_blank">Twitter</a> or <a href="https://t.me/WombaTeam" target="_blank">Telegram</a> channels for the launch date announcements (and other fun wombats stuff).</p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
 
@@ -211,8 +253,8 @@ In our case - staking your WPOO tokens (which basically means locking them in a 
             this.setAttribute('aria-expanded', 'false');
         }
     }
-    items.forEach(item => item.addEventListener('click', toggleAccordion)); 
+    items.forEach(item => item.addEventListener('click', toggleAccordion));
 </script>
 
 <?php
-get_footer(); 
+get_footer();

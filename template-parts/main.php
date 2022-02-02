@@ -40,12 +40,12 @@ get_header();
         <div class="w-full relative lg:w-4/6 bg-no-repeat lg:bg-img-3 lg:bg-right-top">
             <img src="<?=get_stylesheet_directory_uri()?>/assets/img/MeetWombats1.png" class="block absolute -right-20 -top-4 scale-x-[-1] w-44 lg:hidden"/>
             <div class="bg-no-repeat bg-left-top bg-img-5 bg-contain h-10 mb-10 lg:hidden"></div>
-            <h1>Meet the <br/><span class="title-logo"><span>Wombateam</span></span></h1> 
+            <h1>Meet the <br/><span class="title-logo"><span>Wombateam</span></span></h1>
                 <p class="mt-10">
                 The WombaTeam NFTs are NOT your ordinary collectibles. This group of 10K unique wombats gives a shit - literally.
                 </p>
                 <p class="mt-6 lg:mt-10">
-                Each Wombat can poop a number of turds according to its rarity, and we have big plans on turning these pooping machines into an impactful, community-driven financial system. 
+                Each Wombat can poop a number of turds according to its rarity, and we have big plans on turning these pooping machines into an impactful, community-driven financial system.
                 </p>
                 <p class="mt-6 lg:mt-10">
                 Read <a href="/#roadmap">our roadmap</a> below to learn more.
@@ -69,7 +69,7 @@ get_header();
             <img src="<?=get_stylesheet_directory_uri()?>/assets/img/roadmap_drums_wpoo.png" width="679" class="mx-auto" alt="Introducing Our Roadmap" />
         </div>
 </div>
-    
+
 <!-- /Meet the Roadmap -->
 
 <div class="divider my-14"></div>
@@ -86,7 +86,7 @@ get_header();
 
 Minting a Wombat costs 0.05 ETH (+ gas fee) and each one will have a different combination of traits (different backgrounds, facial expressions, clothes etc.) - some more rare than others.<br><br>
 
-You've probably noticed it by now, but we love wombats. <strong>That’s why we will be donating 10% of all sales to Wombat-related charities and research</strong> (as per the DAO - see Stage 3)<strong>.</strong> 
+You've probably noticed it by now, but we love wombats. <strong>That’s why we will be donating 10% of all sales to Wombat-related charities and research</strong> (as per the DAO - see Stage 3)<strong>.</strong>
             </p>
             <div class="mt-16 text-center bg-no-repeat bg-right-top lg:bg-img-10 lg:mx-0 lg:text-left">
                 <a href="/mint/" class="btn1 mt-2 py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl lg:mt-10">Mint a Wombat</a>
@@ -94,7 +94,7 @@ You've probably noticed it by now, but we love wombats. <strong>That’s why we 
             </div>
         </div>
 </div>
-    
+
 <!-- /Stage 1 -->
 
 <div class="divider my-20"></div>
@@ -108,19 +108,18 @@ You've probably noticed it by now, but we love wombats. <strong>That’s why we 
         </div>
         <div class="w-full px-6 lg:px-0 lg:w-8/12">
             <p>
-                Once we hit the P-Day (the exact timing of which is kept secret and will be shared with our allies over encrypted channels), your Wombat will start pooping <strong>WPOO tokens</strong> and trust us, it’s going to be an absolute shitshow.<br><br>
-
-                These adorable marsupials poop up to 80 cubes per day - yes, they really drop that many cube-shaped turds on the daily. Magical, isn't it?!
+                Your Wombat is a lean mean WPOO token pooping machine.
                 <br><br>
-
-                The number of Wpoo tokens your wombat will produce daily will depend on its rarity. The larger the rarity factor, the more tokens you will get.<br><br>
-
-                We know, we know. If we had to guess what you were thinking right now, it'd probably be something along the lines of "holy shit"!
-
+                While in real life these adorable marsupials generally poop up to 80 cube-shaped turds per day, the number of WPOO tokens your wombat NFT will produce daily will depend on its rarity. The larger the rarity factor, the more tokens you will get. Shit’s golden.
+                <br><br>
+                But…don’t forget to follow the WHO (Wombat Health Organization) <a href="<?=get_site_url()?>/the-poo-collector" target="_blank">collecting guidelines</a> to keep your wombats clean and healthy
             </p>
+           <div class="text-center mt-5">
+            <a href="https://wpoo.wombat.team/" target="_blank" class="btn1 w-full md:w-auto py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl">launch the wpoo collector app</a>
+           </div>
         </div>
 </div>
-    
+
 <!-- /Stage 2 -->
 
 <div class="divider my-20"></div>
@@ -134,17 +133,17 @@ You've probably noticed it by now, but we love wombats. <strong>That’s why we 
         </div>
         <div class="w-full px-6 lg:px-0 lg:w-8/12">
             <p>
-                <strong>This is where shit happens! </strong><br>
+                <strong>This is where shit happens! </strong>(coming soon)<br>
                 Using your WPOO tokens, you can start your farming activity. After all, animal droppings do make some of the best farm fertiliser.<br><br>
 As a culmination of your farming efforts, your harvest will be delivered to you in the form of WDAO tokens, which are the Wombat DAO governing currency.
 We shit you not!<br><br>
 
-As a DAO member you‘ll get a chance to participate in additional projects, decide on important things like which Wombat-related charity will get our support, our future road map and other (stinky) business decisions.    
+As a DAO member you‘ll get a chance to participate in additional projects, decide on important things like which Wombat-related charity will get our support, our future road map and other (stinky) business decisions.
             </p>
             <p class="mt-8"><a href="/faq/">Learn More</a></p>
         </div>
 </div>
-    
+
 <!-- /Stage 3 -->
 
 <div class="divider my-24"></div>
@@ -162,7 +161,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
             Because <span class="lg:block lg:uppercase lg:font-comet lg:text-title">everybody</span> is allowed to <span class="lg:block lg:uppercase lg:font-comet lg:text-title">dream,</span> right? ;)
         </div>
 </div>
-    
+
 <!-- /Stage 4 -->
 
 <!-- C2A -->
@@ -175,7 +174,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 
         </div>
 </div>
-    
+
 <!-- /C2A -->
 
 <div class="divider my-12"></div>
@@ -194,7 +193,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
                 Please note that 775 wombats (out of the 10,000) were already minted in the initial minting window and the next minting event will be announced on our social channels.<br></p>
             </div>
     </div>
-</div>    
+</div>
 <!-- /Sneak peak -->
 
             <!-- Slider -->
@@ -204,7 +203,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
                 <div class="swiper-wrapper"></div>
                 </div>
             </div>
-                
+
             <!-- /Slider -->
 
             <!-- Slider Mobile -->
@@ -214,9 +213,9 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
                     <div class="swiper-wrapper"></div>
                 </div>
             </div>
-                
+
             <!-- /Slider Mobile -->
- 
+
 <!-- C2A -->
 
 <div class="mx-auto container flex flex-col lg:flex-row">
@@ -226,7 +225,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
 
         </div>
 </div>
-    
+
 <!-- /C2A -->
 
 <div class="divider my-24 lg:hidden"></div>
@@ -240,7 +239,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
             <p>Believe it or not, we are all part of the same family, scattered around the world with various skill sets that are being put to the test with this ambitious project.
             <br><br> Well, to be honest, there’s one Guy we adopted along the way, but he's basically like family now.</p>
         </div>
-        
+
         <div class="mt-20 flex flex-col gap-10 lg:flex-row">
             <div class="w-full lg:w-1/2">
                 <div class="flex gap-5 mb-5 lg:mb-10 lg:gap-10">
@@ -267,14 +266,14 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
             </div>
             <div class="w-full lg:w-1/2">
                 <div class="flex gap-5 mb-5 lg:mb-10 lg:gap-10">
-                    <img src="<?=get_stylesheet_directory_uri()?>/assets/img/team/team4.png" alt="And A Few Others" class="w-1/2 object-contain"> 
+                    <img src="<?=get_stylesheet_directory_uri()?>/assets/img/team/team4.png" alt="And A Few Others" class="w-1/2 object-contain">
                     <h3>And<br> A Few Others</h3>
                 </div>
                 <p>The geeks, the wordsmiths, the project managers, the coders - you know, the people that actually make this work.</p>
             </div>
         </div>
 </div>
-    
+
 <!-- /Team -->
 
 <div class="divider my-24 lg:hidden"></div>
@@ -296,13 +295,13 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
             </div>
             <div class="w-full text-center px-2 lg:w-1/3">
                 <div class="svg-circle"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/tl-dr/cube.svg" alt=""></div>
-                <p>Every wombat unlocks daily WPOO tokens distributed according to its rarity<br>(once we hit the P-Day)</p>
+                <p>Every wombat unlocks daily WPOO tokens distributed according to its rarity</p>
             </div>
         </div>
         <div class="flex flex-col gap-10 mb-10 lg:mb-16 lg:flex-row">
             <div class="w-full text-center px-2 lg:w-1/3">
                 <div class="svg-circle"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/tl-dr/tree.svg" alt=""></div>
-                <p>WPOO tokens can then be used for farming </p>
+                <p>WPOO tokens can then be used for farming<br>(cooming soon)</p>
             </div>
             <div class="w-full text-center px-2 lg:w-1/3">
                 <div class="svg-circle"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/tl-dr/wombat.svg" alt=""></div>
@@ -317,7 +316,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
         <div class="w-full text-center lg:mt-24"><a href="/mint/" class="btn1 mt-10 py-2 px-10 text-xl lg:py-6 lg:px-24 lg:text-5xl">Got it,<br/> let’s mint a Wombat</a></div>
 
 </div>
-    
+
 <!-- /TL;DR -->
 
 
