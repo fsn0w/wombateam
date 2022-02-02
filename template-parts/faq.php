@@ -124,14 +124,14 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                 <button aria-expanded="false"><span class="accordion-title">How do I add Polygon to my Metamask wallet? </span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
                         <p>It’s very easy.<br><br>1.Click on the "add a network" button on your Metamask wallet networks list:</p>
-                        <img src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2.png" />
+                        <img class="mb-2" src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2.png" />
                         <p>2. Fill in the following details:</p>
                         <ul>
                             <li>Network name: Polygon Mainnet</li>
                             <li>New RPC URL: https://polygon-rpc.com</li>
                             <li>ChainId: 137</li>
                         </ul>
-                        <img src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_2.png" />
+                        <img class="mb-2" src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_2.png" />
                         <p>Done!<br>If you have any problems feel free to ask on our <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord channel</a>.</p>
                     </div>
                 </div>
@@ -146,14 +146,14 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                   <button aria-expanded="false"><span class="accordion-title">How can I see the WPOO tokens on my Metamask? </span><span class="icon" aria-hidden="true"></span></button>
                   <div class="accordion-content">
                      <p>In order to see your WPOO balance in your wallet you would have to set up the WPOO token in your Metamask:<br><br>1. Click on "import tokens"</p>
-                     <img src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_3.png" />
+                     <img class="mb-2" src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_3.png" />
                      <p>2. Fill in the following details:</p>
                      <ul>
                        <li>Token Contract Address: 0x557E6bf1442E47Edd7cc61d231257362e8f662d9</li>
                        <li>Token Symbol: WPOO</li>
                        <li>Token Decimal: 18</li>
                      </ul>
-                     <img src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_4.png" />
+                     <img class="mb-2" src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_4.png" />
                      <p>Done!<br>If you have any problems feel free to ask on our <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord channel</a>.</p>
                   </div>
                 </div>
