@@ -67,7 +67,7 @@ get_header();
 <div class="divider d-none md:d-block my-14"></div>
 
 <!-- Fine prints -->
-    <div class="mx-auto container pt-0 lg:pt-18">
+    <div id="rules" class="mx-auto container pt-0 lg:pt-18" >
         <div class="flex flex-col items-center md:flex-row">
             <img src="<?=get_stylesheet_directory_uri()?>/assets/img/poo-collector/butpoop.png"
             class="ml-0 md:mr-[50px] max-w-[350px]">
