@@ -19,7 +19,7 @@ get_header();
         </p>
 
 <!-- Stage 1 -->
-        <div class="mt-12 lg:mt-20">
+        <div id="stage1" class="mt-12 lg:mt-20">
             <h4>Stage 1 (Join the Wombateam) Questions</h4>
             <div class="accordion mt-5 lg:mt-10">
                 <div class="accordion-item border-t">
@@ -85,7 +85,7 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
 
 <!-- Stage 2 -->
 
-        <div class="mt-12 lg:mt-20">
+        <div id="stage2" class="mt-12 lg:mt-20">
             <h4>Stage 2 (WPOO tokens generation) Questions</h4>
             <div class="accordion mt-5 lg:mt-10">
                 <div class="accordion-item border-t">
@@ -167,7 +167,7 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
 
 <!-- Stage 3 -->
 
-        <div class="mt-12 lg:mt-20">
+        <div id="stage3" class="mt-12 lg:mt-20">
             <h4>Stage 3 (Farm Fertilising) Questions</h4>
             <div class="accordion mt-5 lg:mt-10">
                 <div class="accordion-item border-t">
