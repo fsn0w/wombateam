@@ -163,7 +163,7 @@ get_header();
         <div class="text-center mt-12 lg:mt-20">
            <a href="https://wpoo.wombat.team/" target="_blank" class="btn1 w-full md:w-auto py-4 px-4 text-xl lg:py-6 lg:px-8 lg:text-4xl">launch the wpoo collector app</a>
         </div>
-        <div class="text-center mt-5 lg:mt-12">
+        <div class="text-center mt-5">
             <p>Or <a href="https://wombat.team/faq/" target="_blank">visit our FAQ</a> for other WPOO related questions</p>
         </div>
     </div>
