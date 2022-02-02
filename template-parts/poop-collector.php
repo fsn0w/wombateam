@@ -124,7 +124,7 @@ get_header();
                 </div>
 
                 <div class="block-right w-7/12 md:w-1/2 pl-5 md:pl-10">
-                    <p class="mb-0">From day 8 onwards, the wombats will start feeling a bit overwhelmed by all this shit around them and their pooping capacity will be reduced by 10% daily.</p>
+                    <p class="mb-0">If you’ll neglect your WPOO collecting duties for 2 weeks (meaning reach day 14) - your wombat will get so stressed - it will completely stop pooping. </p>
                     <p class="mt-[25px] md:mt-[33px]">Between day 14-28, nature will come to your wombats help as the feces will start degrading daily (in other words, you’ll start losing your WPOOs).</p>
                 </div>
             </div>
