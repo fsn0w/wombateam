@@ -26,7 +26,7 @@
                     <a href="https://discord.gg/vj7RmZeBnp" target="_blank"
                     class="icon-ds brightness-125 border-b-0 hover:brightness-100 w-[16px] h-[16px] md:w-[35px] md:h-[35px]"></a>
                 </div>
-                <a class="hidden lg:block text-center text-[20px] border-circle mt-4" href="#">Verified Smart Contract</a>
+                <a class="hidden lg:block text-center text-[20px] border-circle mt-4" href="https://polygonscan.com/address/0x557E6bf1442E47Edd7cc61d231257362e8f662d9" target="_blank">Verified Smart Contract</a>
 			</div>
         </div>
 
@@ -52,7 +52,7 @@
         </div>
 
         <div class="flex justify-center lg:hidden w-full mb-5 order-5">
-            <a class="text-[12px] border-circle" href="#">Verified Smart Contract</a>
+            <a class="text-[12px] border-circle" href="https://polygonscan.com/address/0x557E6bf1442E47Edd7cc61d231257362e8f662d9" target="_blank">Verified Smart Contract</a>
         </div>
 
         <div class="block justify-center lg:hidden w-full order-6">
