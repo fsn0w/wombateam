@@ -80,6 +80,12 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                         Poopability trait will give you a sense of your wombat's metabolism!  The scale goes from 41 (slower bowel movements) to 80 (full of shit!).</p>
                     </div>
                 </div>
+                <div class="accordion-item">
+                <button aria-expanded="false"><span class="accordion-title">Is the team minting any NFT’s for themselves?</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>Yes, we will mint 300 Wombats (out of the 10,000) in advance, in order to reserve some for community giveaways, partners and the team.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -171,13 +177,6 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
             <h4>Stage 3 (Farm Fertilising) Questions</h4>
             <div class="accordion mt-5 lg:mt-10">
                 <div class="accordion-item border-t">
-                <button aria-expanded="false"><span class="accordion-title">What is this farming activity?</span><span class="icon" aria-hidden="true"></span></button>
-                    <div class="accordion-content">
-                        <p>In general - farming (or Yield farming) is basically an activity of staking/lending your tokens in order to get more tokens/rewards etc. This is done by the use of blockchain-based smart contracts. <br>
-In our case - staking your WPOO tokens (which basically means locking them in a liquidity pool) will reward you with WDAO tokens, which are the Wombat DAO governing currency. </p>
-                    </div>
-                </div>
-                <div class="accordion-item">
                 <button aria-expanded="false"><span class="accordion-title">What is DAO?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
                         <p>A DAO is a Decentralized Autonomous Organization. It’s a fancy name that means that the organisation created is not ruled by a specific owner but by the entire community as a whole (making it decentralized).</p>
@@ -192,43 +191,57 @@ In our case - staking your WPOO tokens (which basically means locking them in a 
                 <div class="accordion-item">
                 <button aria-expanded="false"><span class="accordion-title">How will the WDAO make these decisions?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>We’ll be using discord for discussing the WIPs (Wombat DAO Improvement Proposals) and snapshot.org for voting on the proposals. Every member of the DAO would be able to formulate a proposal and put it out for the community to discuss and afterwards (potentially after a few rounds of refinements) to submit it for voting. In order to prevent spamming of the voting mechanism - a certain voting power threshold will need to be held by the user in order to submit it for voting. In order to pass, a WIP will need to both achieve a quorum and a majority voting in favour of it.</p>
+                        <p>We’ll be using <a href="https://discord.gg/vj7RmZeBnp" target="_blank">discord</a> for discussing the WIPs (Wombat DAO Improvement Proposals) and snapshot.org for voting on the proposals. Every member of the DAO would be able to formulate a proposal and put it out for the community to discuss and afterwards (potentially after a few rounds of refinements) to submit it for voting. In order to prevent spamming of the voting mechanism - a certain voting power threshold will need to be held by the user in order to submit it for voting. In order to pass, a WIP will need to both achieve a quorum and a majority voting in favour of it.</p>
                     </div>
                 </div>
                 <div class="accordion-item">
                 <button aria-expanded="false"><span class="accordion-title">Where does the WDAO get its earnings from?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>This is an excellent question! Unlike most of the DAOs out there, Wombat DAO will be launching without a predefined goal in mind and the DAO members will be the ones raising proposals as to particular projects & directions they’d like to build/run. It’s basically starting with a clean slate and anything should be possible, as the only limiting factor would be your imagination. Some activities could be not for profit, other - for profit and if built and executed properly (this is where the community plays the most important role), these would generate various revenue streams for Wombat DAO treasury.
+                      <p>
+                        This is an excellent question!
                         <br/>
-                        For example - half of the royalties from the secondary sales of the WombaTeam NFT’s will go into the treasury. </p>
+                        First of all, half of the royalties from the secondary sales of the WombaTeam NFT’s will go into the treasury.
+                        <br/>
+                        On top of it, unlike most of the DAOs out there, Wombat DAO will be launching without a predefined goal in mind and the DAO members will be the ones raising proposals as to particular projects & directions they’d like to build/run. It’s basically starting with a clean slate and anything should be possible, as the only limiting factor would be your imagination. Some activities could be not for profit, but other can definitely be for profit, and if built and executed properly (this is where the community plays the most important role), these would generate various revenue streams for Wombat DAO treasury.
+                      </p>
                     </div>
                 </div>
                 <div class="accordion-item">
                 <button aria-expanded="false"><span class="accordion-title">How can you join the DAO?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>WombaTeam NFT is your entry ticket to the DAO. If you participate in the farming process and stake the shit out of WPOO - you will also receive the actual Wombat DAO governance token, called WDAO. Your WDAO holdings will represent your voting power in the DAO.  </p>
+                        <p>
+                          The WombaTeam NFT is your entry ticket to the DAO as they produce WPOO that can be exchanged/staked to receive the Wombat DAO Governance token, called WDAO.
+                          <br/>
+ Your WDAO holdings will represent your voting power in the DAO.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                <button aria-expanded="false"><span class="accordion-title">How do I get WDAO tokens?</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>
+                          You have 2 ways of getting a hold of WDAO tokens – fertilizing and farming:
+                          <br/>
+                          1. Fertilizing – You can deposit your WPOO tokens to the fertilizer. Your tokens will slowly disintegrate over a course of 2 weeks, and in return you will get the proportional amount of the fixed daily released WDAO tokens (according to your share of WPOO tokens in the fertilizer pile on that day).
+                          <br/>
+ 2. Farming – You can provide liquidity on one of the supported DEXs and receive WDAO rewards on top of 0.3% trading fee which is shared between the pool participants. There are no lockup periods, however you will be exposed to potential impermanent loss.​
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                <button aria-expanded="false"><span class="accordion-title">How many WDAO tokens are released every day?</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>
+                          There will be a total of 21M WDAO tokens and these would be distributed over the course of 15 years (this is the average lifespan of a wombat in the wild).  Every day ~3,835.6 WDAO tokens will drip from the fertilizer tank. Once the staking will be enabled - these rewards will be shared between the fertilizer tank and the staking.
+                        </p>
                     </div>
                 </div>
                 <div class="accordion-item">
                 <button aria-expanded="false"><span class="accordion-title">How many WDAO will I get for staking my WPOOs?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>There will be a total of 21M WDAO tokens and these would be distributed over the course of 15 years (this is the average lifespan of a wombat in the wild). The individual rewards will depend on the total number of participants in the staking, amount of WPOO staked and some other parameters, so it’s literally impossible to know in advance. </p>
+                        <p>The individual rewards will depend on the total number of participants in the staking, amount of WPOO staked and some other parameters, so it’s literally impossible to know in advance. </p>
                     </div>
                 </div>
-                <div class="accordion-item">
-                <button aria-expanded="false"><span class="accordion-title">Is the team minting any NFT’s for themselves?</span><span class="icon" aria-hidden="true"></span></button>
-                    <div class="accordion-content">
-                        <p>Yes, we will mint 300 Wombats (out of the 10,000) in advance, in order to reserve some for community giveaways, partners and the team.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                <button aria-expanded="false"><span class="accordion-title">When will the DAO be active? </span><span class="icon" aria-hidden="true"></span></button>
-                    <div class="accordion-content">
-                        <p>We are currently working on developing the farming and DAO functionality. Follow us on our <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord</a>, <a href="https://twitter.com/WombaTeam" target="_blank">Twitter</a> or <a href="https://t.me/WombaTeam" target="_blank">Telegram</a> channels for the launch date announcements (and other fun wombats stuff).</p>
-                    </div>
-                </div>
-
-
             </div>
         </div>
 

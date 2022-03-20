@@ -133,14 +133,14 @@ You've probably noticed it by now, but we love wombats. <strong>That’s why we 
         </div>
         <div class="w-full px-6 lg:px-0 lg:w-8/12">
             <p>
-                <strong>This is where shit happens! </strong>(coming soon)<br>
-                Using your WPOO tokens, you can start your farming activity. After all, animal droppings do make some of the best farm fertiliser.<br><br>
+                <strong>This is where shit happens! </strong><br>
+                Using your WPOO tokens, you can start your <a href="https://wpoo.wombat.team/" target="_blank">farming activity</a>. After all, animal droppings do make some of the best farm fertiliser.<br><br>
 As a culmination of your farming efforts, your harvest will be delivered to you in the form of WDAO tokens, which are the Wombat DAO governing currency.
 We shit you not!<br><br>
 
 As a DAO member you‘ll get a chance to participate in additional projects, decide on important things like which Wombat-related charity will get our support, our future road map and other (stinky) business decisions.
             </p>
-            <p class="mt-8"><a href="/faq/">Learn More</a></p>
+            <p class="mt-8"><a href="/wdao-tokens/index.html">Learn More</a></p>
         </div>
 </div>
 
@@ -301,7 +301,7 @@ As a DAO member you‘ll get a chance to participate in additional projects, dec
         <div class="flex flex-col gap-10 mb-10 lg:mb-16 lg:flex-row">
             <div class="w-full text-center px-2 lg:w-1/3">
                 <div class="svg-circle"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/tl-dr/tree.svg" alt=""></div>
-                <p>WPOO tokens can then be used for farming<br>(coming soon)</p>
+                <p>WPOO tokens can then be used for farming</p>
             </div>
             <div class="w-full text-center px-2 lg:w-1/3">
                 <div class="svg-circle"><img src="<?=get_stylesheet_directory_uri()?>/assets/img/tl-dr/wombat.svg" alt=""></div>
