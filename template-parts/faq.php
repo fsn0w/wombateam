@@ -167,23 +167,7 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                      <p>Done!<br>If you have any problems feel free to ask on our <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord channel</a>.</p>
                   </div>
                 </div>
-
-                <div class="accordion-item">
-                  <button aria-expanded="false"><span class="accordion-title">How do I add WDAO to my wallet? </span><span class="icon" aria-hidden="true"></span></button>
-                  <div class="accordion-content">
-                     <p>In order to see your WDAO balance in your wallet you would have to set up the WDAO in your Metamask:<br><br>1. Click on "import tokens"</p>
-                     <img class="mb-2" src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_3.png" />
-                     <p>2. Fill in the following details:</p>
-                     <ul>
-                       <li>Token Contract Address: 0x39A01bC10728d1F861c0b34eB06216eF95956525</li>
-                       <li>Token Symbol: WDAO</li>
-                       <li>Token Decimal: 18</li>
-                     </ul>
-                     <img class="mb-2" src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_4.png" />
-                     <p>Done!<br>If you have any problems feel free to ask on our <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord channel</a>.</p>
-                  </div>
-                </div>
-
+                
             </div>
         </div>
 
@@ -231,6 +215,21 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                           Your WDAO holdings will represent your voting power in the DAO.
                         </p>
                     </div>
+                </div>
+                <div class="accordion-item">
+                  <button aria-expanded="false"><span class="accordion-title">How do I add WDAO to my wallet? </span><span class="icon" aria-hidden="true"></span></button>
+                  <div class="accordion-content">
+                     <p>In order to see your WDAO balance in your wallet you would have to set up the WDAO in your Metamask:<br><br>1. Click on "import tokens"</p>
+                     <img class="mb-2" src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_3.png" />
+                     <p>2. Fill in the following details:</p>
+                     <ul>
+                       <li>Token Contract Address: 0x39A01bC10728d1F861c0b34eB06216eF95956525</li>
+                       <li>Token Symbol: WDAO</li>
+                       <li>Token Decimal: 18</li>
+                     </ul>
+                     <img class="mb-2" src="<?=get_stylesheet_directory_uri()?>/assets/img/faq/faq_stage_2_4.png" />
+                     <p>Done!<br>If you have any problems feel free to ask on our <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord channel</a>.</p>
+                  </div>
                 </div>
                 <div class="accordion-item">
                 <button aria-expanded="false"><span class="accordion-title">How do I get WDAO tokens?</span><span class="icon" aria-hidden="true"></span></button>
