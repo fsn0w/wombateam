@@ -33,7 +33,7 @@
         <div class="flex flex-col justify-center items-center w-full lg:w-2/12 mb-5 order-2 lg:order-3">
           <span class="font-comet text-[18px] md:text-4xl">Site map</span>
           <a class="text-[12px] md:text-xl border-circle font-light" href="https://wombat.team/the-poo-collector/">WPOO collecting</a>
-          <a class="text-[12px] md:text-xl border-circle font-light" href="https://wombat.team/wdao-tokens/index.html">WDAO tokens</a>
+          <a class="text-[12px] md:text-xl border-circle font-light" href="https://wombat.team/wdao-tokens/">WDAO tokens</a>
           <a class="text-[12px] md:text-xl border-circle font-light" href="https://wombat.team/mint/">Mint</a>
           <a class="text-[12px] md:text-xl border-circle font-light" href="<?=get_site_url()?>/#roadmap">Roadmap</a>
           <a class="text-[12px] md:text-xl border-circle font-light" href="<?=get_site_url()?>/#team">Team</a>
