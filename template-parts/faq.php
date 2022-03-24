@@ -167,7 +167,7 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                      <p>Done!<br>If you have any problems feel free to ask on our <a href="https://discord.gg/vj7RmZeBnp" target="_blank">Discord channel</a>.</p>
                   </div>
                 </div>
-                
+
             </div>
         </div>
 
@@ -240,7 +240,27 @@ Each Wombat can poop a number of turds according to its rarity, and we have big 
                           1. Fertilizing – You can deposit your WPOO tokens to the fertilizer. Your tokens will slowly disintegrate over a course of 2 weeks, and in return you will get the proportional amount of the fixed daily released WDAO tokens (according to your share of WPOO tokens in the fertilizer pile on that day).
                           <br/>
                           2. Farming – You can provide liquidity on one of the supported DEXs and receive WDAO rewards on top of 0.3% trading fee which is shared between the pool participants. There are no lockup periods, however you will be exposed to potential impermanent loss.​
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                <button aria-expanded="false"><span class="accordion-title">How many WDAO tokens are released every day?</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>
+                          There will be a total of 21M WDAO tokens and these would be distributed over the course of 15 years (this is the average lifespan of a wombat in the wild).  Every day ~3,835.6 WDAO tokens will drip from the fertilizer tank. Once the staking will be enabled - these rewards will be shared between the fertilizer tank and the staking.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                <button aria-expanded="false"><span class="accordion-title">How many WDAO will I get for staking my WPOOs?</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>The individual rewards will depend on the total number of participants in the staking, amount of WPOO staked and some other parameters, so it’s literally impossible to know in advance. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+    </div>
 <!-- C2A Discord -->
 
     <div class="w-full text-center bg-[#5F4F44] py-10 px-10 lg:py-20">
